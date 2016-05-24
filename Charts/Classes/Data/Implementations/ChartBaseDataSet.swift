@@ -164,6 +164,8 @@ public class ChartBaseDataSet: NSObject, IChartDataSet
     /// Colors are reused as soon as the number of Entries the DataSet represents is higher than the size of the colors array.
     public var colors = [NSUIColor]()
     
+    public var gradientEndColors = [NSUIColor]()
+    
     /// List representing all colors that are used for drawing the actual values for this DataSet
     public var valueColors = [NSUIColor]()
 
@@ -185,10 +187,21 @@ public class ChartBaseDataSet: NSObject, IChartDataSet
         return colors[index % colors.count]
     }
     
+    public func gradientEndColorAtIndex(index: Int) -> NSUIColor
+    {
+        var index = index
+        if (index < 0)
+        {
+            index = 0
+        }
+        return gradientEndColors[index % colors.count]
+    }
+    
     /// Resets all colors of this DataSet and recreates the colors array.
     public func resetColors()
     {
         colors.removeAll(keepCapacity: false)
+        gradientEndColors.removeAll(keepCapacity: false)
     }
     
     /// Adds a new color to the colors array of the DataSet.
@@ -196,6 +209,11 @@ public class ChartBaseDataSet: NSObject, IChartDataSet
     public func addColor(color: NSUIColor)
     {
         colors.append(color)
+    }
+    
+    public func addGradientEndColor(color: NSUIColor)
+    {
+        gradientEndColors.append(color)
     }
     
     /// Sets the one and **only** color that should be used for this DataSet.
@@ -207,12 +225,23 @@ public class ChartBaseDataSet: NSObject, IChartDataSet
         colors.append(color)
     }
     
+    public func setGradientEndColor(color: NSUIColor)
+    {
+        gradientEndColors.removeAll(keepCapacity: false)
+        colors.append(color)
+    }
+    
     /// Sets colors to a single color a specific alpha value.
     /// - parameter color: the color to set
     /// - parameter alpha: alpha to apply to the set `color`
     public func setColor(color: NSUIColor, alpha: CGFloat)
     {
         setColor(color.colorWithAlphaComponent(alpha))
+    }
+    
+    public func setGradientEndColor(color: NSUIColor, alpha: CGFloat)
+    {
+        setGradientEndColor(color.colorWithAlphaComponent(alpha))
     }
     
     /// Sets colors with a specific alpha value.
@@ -228,6 +257,18 @@ public class ChartBaseDataSet: NSObject, IChartDataSet
         }
         
         self.colors = colorsWithAlpha
+    }
+    
+    public func setGradientEndColors(colors: [NSUIColor], alpha: CGFloat)
+    {
+        var colorsWithAlpha = colors
+        
+        for i in 0 ..< colorsWithAlpha.count
+        {
+            colorsWithAlpha[i] = colorsWithAlpha[i] .colorWithAlphaComponent(alpha)
+        }
+        
+        self.gradientEndColors = colorsWithAlpha
     }
     
     /// if true, value highlighting is enabled

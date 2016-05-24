@@ -148,15 +148,23 @@ public protocol IChartDataSet
     /// Colors are reused as soon as the number of Entries the DataSet represents is higher than the size of the colors array.
     var colors: [NSUIColor] { get }
     
+    var gradientEndColors: [NSUIColor] { get }
+    
     /// - returns: the color at the given index of the DataSet's color array.
     /// This prevents out-of-bounds by performing a modulus on the color index, so colours will repeat themselves.
     func colorAt(index: Int) -> NSUIColor
+    
+    func gradientEndColorAtIndex(index: Int) -> NSUIColor
     
     func resetColors()
     
     func addColor(color: NSUIColor)
     
+    func addGradientEndColor(color: NSUIColor)
+    
     func setColor(color: NSUIColor)
+    
+    func setGradientEndColor(color: NSUIColor)
     
     /// if true, value highlighting is enabled
     var highlightEnabled: Bool { get set }
