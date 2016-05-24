@@ -155,16 +155,21 @@
     {
         set1 = [[LineChartDataSet alloc] initWithYVals:yVals label:@"DataSet 1"];
         
-        set1.lineDashLengths = @[@5.f, @2.5f];
-        set1.highlightLineDashLengths = @[@5.f, @2.5f];
-        [set1 setColor:UIColor.blackColor];
-        [set1 setCircleColor:UIColor.blackColor];
-        set1.lineWidth = 1.0;
-        set1.circleRadius = 3.0;
-        set1.drawCircleHoleEnabled = NO;
+//        set1.lineDashLengths = @[@5.f, @2.5f];
+//        set1.highlightLineDashLengths = @[@5.f, @2.5f];
+        set1.drawCubicEnabled = YES;
+        [set1 setColor:UIColor.whiteColor];
+        [set1 setGradientEndColor:UIColor.redColor];
+        [set1 setCircleColor:UIColor.redColor];
+        [set1 setCircleHoleColor:UIColor.clearColor];
+        set1.lineWidth = 3.0;
+        set1.circleRadius = 6.0;
+        set1.circleHoleRadius = 5.0;
+        set1.drawCircleHoleEnabled = YES;
         set1.valueFont = [UIFont systemFontOfSize:9.f];
         //set1.fillAlpha = 65/255.0;
         //set1.fillColor = UIColor.blackColor;
+        set1.drawOnlyLastCircle = YES;
         
         NSArray *gradientColors = @[
                                     (id)[ChartColorTemplates colorFromString:@"#00ff0000"].CGColor,
@@ -174,7 +179,6 @@
         
         set1.fillAlpha = 1.f;
         set1.fill = [ChartFill fillWithLinearGradient:gradient angle:90.f];
-        set1.drawFilledEnabled = YES;
         
         CGGradientRelease(gradient);
         

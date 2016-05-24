@@ -228,7 +228,7 @@ public class ChartBaseDataSet: NSObject, IChartDataSet
     public func setGradientEndColor(color: NSUIColor)
     {
         gradientEndColors.removeAll(keepCapacity: false)
-        colors.append(color)
+        gradientEndColors.append(color)
     }
     
     /// Sets colors to a single color a specific alpha value.

@@ -129,8 +129,12 @@ public class RealmLineDataSet: RealmLineRadarDataSet, ILineChartDataSet
     /// If true, drawing circles is enabled
     public var drawCirclesEnabled = true
     
+    public var drawOnlyLastCircle = false
+    
     /// - returns: true if drawing circles for this DataSet is enabled, false if not
     public var isDrawCirclesEnabled: Bool { return drawCirclesEnabled }
+    
+    public var isDrawOnlyLastCircleEnabled: Bool { return drawOnlyLastCircle }
     
     /// The color of the inner circle (the circle-hole).
     public var circleHoleColor: NSUIColor? = NSUIColor.whiteColor()
