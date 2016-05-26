@@ -266,7 +266,7 @@ public class LineChartRenderer: LineRadarChartRenderer
             drawCubicFill(context: context, dataSet: dataSet, spline: fillPath!, matrix: valueToPixelMatrix, from: minx, to: size)
         }
         
-        if let gradientEndColor = dataSet.gradientEndColors.first
+        if let gradientEndColor = dataSet.gradientEndColors.first where size > 1
         {
             let baseSpace = CGColorSpaceCreateDeviceRGB()
             let gradient = CGGradientCreateWithColorComponents(baseSpace, drawingColor.components() +
