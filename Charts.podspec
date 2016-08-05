@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "Charts"
-  s.version = "2.2.4"
+  s.version = "2.2.5"
   s.summary = "Charts is a powerful & easy to use chart library for iOS, tvOS and OSX (and Android)"
   s.homepage = "https://github.com/danielgindi/Charts"
   s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.subspec "Realm" do |ss|
     ss.source_files  = "ChartsRealm/Classes/**/*.swift"
     ss.dependency "Charts/Core"
-    ss.dependency "RealmSwift", "~> 0.97"
+    ss.dependency "RealmSwift", "~> 1.0.2"
   end
 end
