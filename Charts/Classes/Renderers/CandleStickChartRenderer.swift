@@ -30,13 +30,13 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
     
     public override func drawData(context context: CGContext)
     {
-        guard let dataProvider = dataProvider, candleData = dataProvider.candleData else { return }
+        guard let dataProvider = dataProvider, let candleData = dataProvider.candleData else { return }
 
         for set in candleData.dataSets as! [ICandleChartDataSet]
         {
             if set.isVisible
             {
-                drawDataSet(context: context, dataSet: set)
+                drawDataSet(context, dataSet: set)
             }
         }
     }
@@ -48,11 +48,11 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
     private var _bodyRect = CGRect()
     private var _lineSegments = [CGPoint](count: 2, repeatedValue: CGPoint())
     
-    public func drawDataSet(context context: CGContext, dataSet: ICandleChartDataSet)
+    public func drawDataSet(context: CGContext, dataSet: ICandleChartDataSet)
     {
         guard let
             dataProvider = dataProvider,
-            animator = animator
+            let animator = animator
             else { return }
 
         let trans = dataProvider.getTransformer(dataSet.axisDependency)
@@ -61,7 +61,7 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
         let barSpace = dataSet.barSpace
         let showCandleBar = dataSet.showCandleBar
         
-        _xBounds.set(chart: dataProvider, dataSet: dataSet, animator: animator)
+        _xBounds.set(dataProvider, dataSet: dataSet, animator: animator)
         
         CGContextSaveGState(context)
         
@@ -239,9 +239,9 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
     {
         guard let
             dataProvider = dataProvider,
-            viewPortHandler = self.viewPortHandler,
-            candleData = dataProvider.candleData,
-            animator = animator
+            let viewPortHandler = self.viewPortHandler,
+            let candleData = dataProvider.candleData,
+            let animator = animator
             else { return }
         
         // if values are drawn
@@ -258,7 +258,7 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
                 guard let dataSet = dataSets[i] as? IBarLineScatterCandleBubbleChartDataSet
                     else { continue }
                 
-                if !shouldDrawValues(forDataSet: dataSet)
+                if !shouldDrawValues(dataSet)
                 {
                     continue
                 }
@@ -270,7 +270,7 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
                 let trans = dataProvider.getTransformer(dataSet.axisDependency)
                 let valueToPixelMatrix = trans.valueToPixelMatrix
                 
-                _xBounds.set(chart: dataProvider, dataSet: dataSet, animator: animator)
+                _xBounds.set(dataProvider, dataSet: dataSet, animator: animator)
                 
                 let lineHeight = valueFont.lineHeight
                 let yOffset: CGFloat = lineHeight + 5.0
@@ -318,8 +318,8 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
     {
         guard let
             dataProvider = dataProvider,
-            candleData = dataProvider.candleData,
-            animator = animator
+            let candleData = dataProvider.candleData,
+            let animator = animator
             else { return }
         
         CGContextSaveGState(context)
@@ -332,7 +332,7 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
             
             guard let e = set.entryForXValue(high.x) as? CandleChartDataEntry else { continue }
             
-            if !isInBoundsX(entry: e, dataSet: set)
+            if !isInBoundsX(e, dataSet: set)
             {
                 continue
             }
@@ -359,7 +359,7 @@ public class CandleStickChartRenderer: LineScatterCandleRadarRenderer
             high.setDraw(pt: pt)
             
             // draw the lines
-            drawHighlightLines(context: context, point: pt, set: set)
+            drawHighlightLines(context, point: pt, set: set)
         }
         
         CGContextRestoreGState(context)

@@ -21,7 +21,7 @@ public class LineRadarRenderer: LineScatterCandleRadarRenderer
     }
     
     /// Draws the provided path in filled mode with the provided drawable.
-    public func drawFilledPath(context context: CGContext, path: CGPath, fill: Fill, fillAlpha: CGFloat)
+    public func drawFilledPath(context: CGContext, path: CGPath, fill: Fill, fillAlpha: CGFloat)
     {
         guard let viewPortHandler = self.viewPortHandler
             else { return }
@@ -33,13 +33,13 @@ public class LineRadarRenderer: LineScatterCandleRadarRenderer
         // filled is usually drawn with less alpha
         CGContextSetAlpha(context, fillAlpha)
         
-        fill.fillPath(context: context, rect: viewPortHandler.contentRect)
+        fill.fillPath(context, rect: viewPortHandler.contentRect)
         
         CGContextRestoreGState(context)
     }
     
     /// Draws the provided path in filled mode with the provided color and alpha.
-    public func drawFilledPath(context context: CGContext, path: CGPath, fillColor: NSUIColor, fillAlpha: CGFloat)
+    public func drawFilledPath(context: CGContext, path: CGPath, fillColor: NSUIColor, fillAlpha: CGFloat)
     {
         CGContextSaveGState(context)
         CGContextBeginPath(context)

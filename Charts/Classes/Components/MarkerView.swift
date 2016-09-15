@@ -53,12 +53,12 @@ public class MarkerView: NSUIView, IMarker
         return offset
     }
     
-    public func refreshContent(entry entry: ChartDataEntry, highlight: Highlight)
+    public func refreshContent(entry: ChartDataEntry, highlight: Highlight)
     {
         // Do nothing here...
     }
     
-    public func draw(context context: CGContext, point: CGPoint)
+    public func draw(context: CGContext, point: CGPoint)
     {
         let offset = self.offsetForDrawingAtPos(point)
         
@@ -79,7 +79,7 @@ public class MarkerView: NSUIView, IMarker
             return NSBundle.mainBundle().loadNibNamed(
                 String(self),
                 owner: nil,
-                options: nil)[0] as? MarkerView
+                options: nil)![0] as? MarkerView
         #else
             
             let loadedObjects = AutoreleasingUnsafeMutablePointer<NSArray?>(nilLiteral: ())

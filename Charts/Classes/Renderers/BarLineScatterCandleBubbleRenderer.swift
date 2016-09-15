@@ -23,7 +23,7 @@ public class BarLineScatterCandleBubbleRenderer: DataRenderer
     }
     
     /// Checks if the provided entry object is in bounds for drawing considering the current animation phase.
-    internal func isInBoundsX(entry e: ChartDataEntry, dataSet: IBarLineScatterCandleBubbleChartDataSet) -> Bool
+    internal func isInBoundsX(e: ChartDataEntry, dataSet: IBarLineScatterCandleBubbleChartDataSet) -> Bool
     {
         let entryIndex = dataSet.entryIndex(entry: e)
         
@@ -47,7 +47,7 @@ public class BarLineScatterCandleBubbleRenderer: DataRenderer
     }
     
     /// - returns: `true` if the DataSet values should be drawn, `false` if not.
-    internal func shouldDrawValues(forDataSet set: IChartDataSet) -> Bool
+    internal func shouldDrawValues(set: IChartDataSet) -> Bool
     {
         return set.isVisible && set.isDrawValuesEnabled
     }
@@ -73,11 +73,11 @@ public class BarLineScatterCandleBubbleRenderer: DataRenderer
                     dataSet: IBarLineScatterCandleBubbleChartDataSet,
                     animator: Animator?)
         {
-            self.set(chart: chart, dataSet: dataSet, animator: animator)
+            self.set(chart, dataSet: dataSet, animator: animator)
         }
         
         /// Calculates the minimum and maximum x values as well as the range between them.
-        public func set(chart chart: BarLineScatterCandleBubbleChartDataProvider,
+        public func set(chart: BarLineScatterCandleBubbleChartDataProvider,
                               dataSet: IBarLineScatterCandleBubbleChartDataSet,
                               animator: Animator?)
         {

@@ -43,19 +43,19 @@ public class ScatterChartRenderer: LineScatterCandleRadarRenderer
                     fatalError("Datasets for ScatterChartRenderer must conform to IScatterChartDataSet")
                 }
                 
-                drawDataSet(context: context, dataSet: set as! IScatterChartDataSet)
+                drawDataSet(context, dataSet: set as! IScatterChartDataSet)
             }
         }
     }
     
     private var _lineSegments = [CGPoint](count: 2, repeatedValue: CGPoint())
     
-    public func drawDataSet(context context: CGContext, dataSet: IScatterChartDataSet)
+    public func drawDataSet(context: CGContext, dataSet: IScatterChartDataSet)
     {
         guard let
             dataProvider = dataProvider,
-            animator = animator,
-            viewPortHandler = self.viewPortHandler
+            let animator = animator,
+            let viewPortHandler = self.viewPortHandler
             else { return }
         
         let trans = dataProvider.getTransformer(dataSet.axisDependency)
@@ -106,9 +106,9 @@ public class ScatterChartRenderer: LineScatterCandleRadarRenderer
     {
         guard let
             dataProvider = dataProvider,
-            scatterData = dataProvider.scatterData,
-            animator = animator,
-            viewPortHandler = self.viewPortHandler
+            let scatterData = dataProvider.scatterData,
+            let animator = animator,
+            let viewPortHandler = self.viewPortHandler
             else { return }
         
         // if values are drawn
@@ -124,7 +124,7 @@ public class ScatterChartRenderer: LineScatterCandleRadarRenderer
             {
                 let dataSet = dataSets[i]
                 
-                if !shouldDrawValues(forDataSet: dataSet)
+                if !shouldDrawValues(dataSet)
                 {
                     continue
                 }
@@ -139,7 +139,7 @@ public class ScatterChartRenderer: LineScatterCandleRadarRenderer
                 let shapeSize = dataSet.scatterShapeSize
                 let lineHeight = valueFont.lineHeight
                 
-                _xBounds.set(chart: dataProvider, dataSet: dataSet, animator: animator)
+                _xBounds.set(dataProvider, dataSet: dataSet, animator: animator)
                 
                 for j in _xBounds.min.stride(through: _xBounds.range + _xBounds.min, by: 1)
                 {
@@ -190,8 +190,8 @@ public class ScatterChartRenderer: LineScatterCandleRadarRenderer
     {
         guard let
             dataProvider = dataProvider,
-            scatterData = dataProvider.scatterData,
-            animator = animator
+            let scatterData = dataProvider.scatterData,
+            let animator = animator
             else { return }
         
         let chartXMax = dataProvider.chartXMax
@@ -207,7 +207,7 @@ public class ScatterChartRenderer: LineScatterCandleRadarRenderer
             guard let e = set.entryForIndex(Int(high.x))
                 else { continue }
             
-            if !isInBoundsX(entry: e, dataSet: set)
+            if !isInBoundsX(e, dataSet: set)
             {
                 continue
             }
@@ -238,7 +238,7 @@ public class ScatterChartRenderer: LineScatterCandleRadarRenderer
             high.setDraw(pt: pt)
             
             // draw the lines
-            drawHighlightLines(context: context, point: pt, set: set)
+            drawHighlightLines(context, point: pt, set: set)
         }
         
         CGContextRestoreGState(context)

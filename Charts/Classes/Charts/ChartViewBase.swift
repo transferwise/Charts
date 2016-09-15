@@ -594,10 +594,10 @@ public class ChartViewBase: NSUIView, ChartDataProvider, AnimatorDelegate
             }
 
             // callbacks to update the content
-            marker.refreshContent(entry: e, highlight: highlight)
+            marker.refreshContent(e, highlight: highlight)
             
             // draw the marker
-            marker.draw(context: context, point: pos)
+            marker.draw(context, point: pos)
         }
     }
     
@@ -823,13 +823,13 @@ public class ChartViewBase: NSUIView, ChartDataProvider, AnimatorDelegate
         if (opaque || !transparent)
         {
             // Background color may be partially transparent, we must fill with white if we want to output an opaque image
-            CGContextSetFillColorWithColor(context, NSUIColor.whiteColor().CGColor)
-            CGContextFillRect(context, rect)
+            CGContextSetFillColorWithColor(context!, NSUIColor.whiteColor().CGColor)
+            CGContextFillRect(context!, rect)
             
             if (self.backgroundColor !== nil)
             {
-                CGContextSetFillColorWithColor(context, self.backgroundColor?.CGColor)
-                CGContextFillRect(context, rect)
+                CGContextSetFillColorWithColor(context!, (self.backgroundColor?.CGColor)!)
+                CGContextFillRect(context!, rect)
             }
         }
         

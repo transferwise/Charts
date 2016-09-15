@@ -69,7 +69,7 @@ public class BubbleChartRenderer: BarLineScatterCandleBubbleRenderer
         
         let phaseY = animator.phaseY
         
-        _xBounds.set(chart: dataProvider, dataSet: dataSet, animator: animator)
+        _xBounds.set(dataProvider, dataSet: dataSet, animator: animator)
         
         let valueToPixelMatrix = trans.valueToPixelMatrix
     
@@ -155,7 +155,7 @@ public class BubbleChartRenderer: BarLineScatterCandleBubbleRenderer
             {
                 let dataSet = dataSets[i]
                 
-                if !shouldDrawValues(forDataSet: dataSet)
+                if !shouldDrawValues(dataSet)
                 {
                     continue
                 }
@@ -164,7 +164,7 @@ public class BubbleChartRenderer: BarLineScatterCandleBubbleRenderer
                 
                 guard let formatter = dataSet.valueFormatter else { continue }
                 
-                _xBounds.set(chart: dataProvider, dataSet: dataSet, animator: animator)
+                _xBounds.set(dataProvider, dataSet: dataSet, animator: animator)
                 
                 let trans = dataProvider.getTransformer(dataSet.axisDependency)
                 let valueToPixelMatrix = trans.valueToPixelMatrix
@@ -247,7 +247,7 @@ public class BubbleChartRenderer: BarLineScatterCandleBubbleRenderer
                 
                 if entry.y != high.y { continue }
                 
-                if !isInBoundsX(entry: entry, dataSet: dataSet) { continue }
+                if !isInBoundsX(entry, dataSet: dataSet) { continue }
                 
                 let trans = dataProvider.getTransformer(dataSet.axisDependency)
                 

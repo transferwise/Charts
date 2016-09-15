@@ -75,12 +75,12 @@ public class MarkerImage: NSObject, IMarker
         return offset
     }
     
-    public func refreshContent(entry entry: ChartDataEntry, highlight: Highlight)
+    public func refreshContent(entry: ChartDataEntry, highlight: Highlight)
     {
         // Do nothing here...
     }
     
-    public func draw(context context: CGContext, point: CGPoint)
+    public func draw(context: CGContext, point: CGPoint)
     {
         let offset = self.offsetForDrawingAtPos(point)
         

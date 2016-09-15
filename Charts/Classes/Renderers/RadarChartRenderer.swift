@@ -42,7 +42,7 @@ public class RadarChartRenderer: LineRadarRenderer
             {
                 if set.isVisible
                 {
-                    drawDataSet(context: context, dataSet: set, mostEntries: mostEntries)
+                    drawDataSet(context, dataSet: set, mostEntries: mostEntries)
                 }
             }
         }
@@ -53,11 +53,11 @@ public class RadarChartRenderer: LineRadarRenderer
     /// - parameter context:
     /// - parameter dataSet:
     /// - parameter mostEntries: the entry count of the dataset with the most entries
-    internal func drawDataSet(context context: CGContext, dataSet: IRadarChartDataSet, mostEntries: Int)
+    internal func drawDataSet(context: CGContext, dataSet: IRadarChartDataSet, mostEntries: Int)
     {
         guard let
             chart = chart,
-            animator = animator
+            let animator = animator
             else { return }
         
         CGContextSaveGState(context)
@@ -114,11 +114,11 @@ public class RadarChartRenderer: LineRadarRenderer
         {
             if dataSet.fill != nil
             {
-                drawFilledPath(context: context, path: path, fill: dataSet.fill!, fillAlpha: dataSet.fillAlpha)
+                drawFilledPath(context, path: path, fill: dataSet.fill!, fillAlpha: dataSet.fillAlpha)
             }
             else
             {
-                drawFilledPath(context: context, path: path, fillColor: dataSet.fillColor, fillAlpha: dataSet.fillAlpha)
+                drawFilledPath(context, path: path, fillColor: dataSet.fillColor, fillAlpha: dataSet.fillAlpha)
             }
         }
         
@@ -141,8 +141,8 @@ public class RadarChartRenderer: LineRadarRenderer
     {
         guard let
             chart = chart,
-            data = chart.data,
-            animator = animator
+            let data = chart.data,
+            let animator = animator
             else { return }
         
         let phaseX = animator.phaseX
@@ -161,7 +161,7 @@ public class RadarChartRenderer: LineRadarRenderer
         {
             let dataSet = data.getDataSetByIndex(i) as! IRadarChartDataSet
             
-            if !shouldDrawValues(forDataSet: dataSet)
+            if !shouldDrawValues(dataSet)
             {
                 continue
             }
@@ -199,16 +199,16 @@ public class RadarChartRenderer: LineRadarRenderer
     
     public override func drawExtras(context context: CGContext)
     {
-        drawWeb(context: context)
+        drawWeb(context)
     }
     
     private var _webLineSegmentsBuffer = [CGPoint](count: 2, repeatedValue: CGPoint())
     
-    public func drawWeb(context context: CGContext)
+    public func drawWeb(context: CGContext)
     {
         guard let
             chart = chart,
-            data = chart.data
+            let data = chart.data
             else { return }
         
         let sliceangle = chart.sliceAngle
@@ -279,8 +279,8 @@ public class RadarChartRenderer: LineRadarRenderer
     {
         guard let
             chart = chart,
-            radarData = chart.data as? RadarChartData,
-            animator = animator
+            let radarData = chart.data as? RadarChartData,
+            let animator = animator
             else { return }
         
         CGContextSaveGState(context)
@@ -301,7 +301,7 @@ public class RadarChartRenderer: LineRadarRenderer
             guard let e = set.entryForIndex(Int(high.x)) as? RadarChartDataEntry
                 else { continue }
             
-            if !isInBoundsX(entry: e, dataSet: set)
+            if !isInBoundsX(e, dataSet: set)
             {
                 continue
             }
@@ -328,7 +328,7 @@ public class RadarChartRenderer: LineRadarRenderer
             high.setDraw(pt: _highlightPointBuffer)
             
             // draw the lines
-            drawHighlightLines(context: context, point: _highlightPointBuffer, set: set)
+            drawHighlightLines(context, point: _highlightPointBuffer, set: set)
             
             if (set.isDrawHighlightCircleEnabled)
             {
@@ -345,7 +345,7 @@ public class RadarChartRenderer: LineRadarRenderer
                     }
                     
                     drawHighlightCircle(
-                        context: context,
+                        context,
                         atPoint: _highlightPointBuffer,
                         innerRadius: set.highlightCircleInnerRadius,
                         outerRadius: set.highlightCircleOuterRadius,
@@ -360,7 +360,7 @@ public class RadarChartRenderer: LineRadarRenderer
     }
     
     internal func drawHighlightCircle(
-        context context: CGContext,
+        context: CGContext,
         atPoint point: CGPoint,
         innerRadius: CGFloat,
         outerRadius: CGFloat,

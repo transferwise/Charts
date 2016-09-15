@@ -25,7 +25,7 @@ public class LineScatterCandleRadarRenderer: BarLineScatterCandleBubbleRenderer
     /// :param: points
     /// :param: horizontal
     /// :param: vertical
-    public func drawHighlightLines(context context: CGContext, point: CGPoint, set: ILineScatterCandleRadarChartDataSet)
+    public func drawHighlightLines(context: CGContext, point: CGPoint, set: ILineScatterCandleRadarChartDataSet)
     {
         guard let
             viewPortHandler = self.viewPortHandler

@@ -174,7 +174,7 @@ public class HorizontalBarChartRenderer: BarChartRenderer
     
     private var _barShadowRectBuffer: CGRect = CGRect()
     
-    public override func drawDataSet(context context: CGContext, dataSet: IBarChartDataSet, index: Int)
+    public override func drawDataSet(context: CGContext, dataSet: IBarChartDataSet, index: Int)
     {
         guard let
             dataProvider = dataProvider,
@@ -276,7 +276,7 @@ public class HorizontalBarChartRenderer: BarChartRenderer
     }
     
     public override func prepareBarHighlight(
-        x x: Double,
+        x: Double,
           y1: Double,
           y2: Double,
           barWidthHalf: Double,
@@ -321,7 +321,7 @@ public class HorizontalBarChartRenderer: BarChartRenderer
             {
                 guard let dataSet = dataSets[dataSetIndex] as? IBarChartDataSet else { continue }
                 
-                if !shouldDrawValues(forDataSet: dataSet)
+                if !shouldDrawValues(dataSet)
                 {
                     continue
                 }
@@ -384,7 +384,7 @@ public class HorizontalBarChartRenderer: BarChartRenderer
                         }
                         
                         drawValue(
-                            context: context,
+                            context,
                             value: valueText,
                             xPos: (rect.origin.x + rect.size.width)
                                 + (val >= 0.0 ? posOffset : negOffset),
@@ -445,7 +445,7 @@ public class HorizontalBarChartRenderer: BarChartRenderer
                             }
                             
                             drawValue(
-                                context: context,
+                                context,
                                 value: valueText,
                                 xPos: (rect.origin.x + rect.size.width)
                                     + (val >= 0.0 ? posOffset : negOffset),
@@ -521,7 +521,7 @@ public class HorizontalBarChartRenderer: BarChartRenderer
                                     continue
                                 }
                                 
-                                drawValue(context: context,
+                                drawValue(context,
                                     value: valueText,
                                     xPos: x,
                                     yPos: y + yOffset,
