@@ -659,7 +659,7 @@ public class LineChartRenderer: LineRadarRenderer
             
             if dataSet.drawOnlyLastCircle
             {
-                drawCircle(context, dataSet: dataSet, j: max(0, Int(ceil(Double(_xBounds.max - _xBounds.min) * phaseX + Double(_xBounds.min))) - 1), phaseY: phaseY,
+                drawCircle(context, dataSet: dataSet, j: max(0, Int(ceil(Double(_xBounds.max - _xBounds.min) * phaseX + Double(_xBounds.min)))), phaseY: phaseY,
                            circleRadius: circleRadius, circleDiameter: circleDiameter,
                            circleHoleRadius: circleHoleRadius, circleHoleDiameter: circleHoleDiameter,
                            drawTransparentCircleHole: drawTransparentCircleHole,
