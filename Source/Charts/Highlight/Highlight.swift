@@ -176,41 +176,38 @@ open class Highlight: NSObject
     
     open override func isEqual(_ object: Any?) -> Bool
     {
-        if object == nil
+
+        guard let otherHightlights = object as? Highlight else
         {
             return false
         }
-        
-        if !(object! as AnyObject).isKind(of: type(of: self))
+
+
+        if otherHightlights.x != _x
         {
             return false
         }
-        
-        if (object! as AnyObject).x != _x
+
+        if otherHightlights.y != _y
         {
             return false
         }
-        
-        if (object! as AnyObject).y != _y
+
+        if otherHightlights.dataIndex != dataIndex
         {
             return false
         }
-        
-        if (object! as AnyObject).dataIndex != dataIndex
+
+        if otherHightlights.dataSetIndex != _dataSetIndex
         {
             return false
         }
-        
-        if (object! as AnyObject).dataSetIndex != _dataSetIndex
+
+        if otherHightlights.stackIndex != _stackIndex
         {
             return false
         }
-        
-        if (object! as AnyObject).stackIndex != _stackIndex
-        {
-            return false
-        }
-        
+
         return true
     }
 }
