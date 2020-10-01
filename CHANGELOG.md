@@ -1,10 +1,349 @@
-# Change Log
+# Changelog
 
-## [v3.3](https://github.com/danielgindi/Charts/tree/v3.3) (2019-04-15)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.2.2...v3.3)
+## [v3.6.0](https://github.com/danielgindi/Charts/tree/v3.6.0) (2020-09-21)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.5.0...v3.6.0)
 
 **Implemented enhancements:**
 
+- Bars not showing bar chart [\#1742](https://github.com/danielgindi/Charts/issues/1742)
+
+**Fixed bugs:**
+
+- Fatal error: Can't form Range with upperBound \< lowerBound [\#4046](https://github.com/danielgindi/Charts/issues/4046)
+
+**Closed issues:**
+
+- How to add string values in Y Axis for Example How show Mutli. graphs for months data? [\#4473](https://github.com/danielgindi/Charts/issues/4473)
+- Charts not supported by xcode 12 and swift compiler version 5.3 [\#4471](https://github.com/danielgindi/Charts/issues/4471)
+- How can i set each slice percentage different color? [\#4451](https://github.com/danielgindi/Charts/issues/4451)
+- Support for Swift Package manager [\#4450](https://github.com/danielgindi/Charts/issues/4450)
+- If you get an element of the histogram, then change the color [\#4446](https://github.com/danielgindi/Charts/issues/4446)
+- lineChartView.zoom\(\) - how to obtain center x/y coordinates [\#4434](https://github.com/danielgindi/Charts/issues/4434)
+- Crash after updating to iOS 13.6 and Xcode 11.6 on NaN [\#4433](https://github.com/danielgindi/Charts/issues/4433)
+- Multiple Highlight points [\#4430](https://github.com/danielgindi/Charts/issues/4430)
+- DateValueFormatter uses wrong date [\#4427](https://github.com/danielgindi/Charts/issues/4427)
+- why y asix value is getting more and more high, how to disable it [\#4425](https://github.com/danielgindi/Charts/issues/4425)
+- One group bar chart how to use XAxis and YAxis, and then show different number to show two unit [\#4416](https://github.com/danielgindi/Charts/issues/4416)
+- Legend does not support dashed lines [\#4413](https://github.com/danielgindi/Charts/issues/4413)
+- How to get number of items displayed in yAxis [\#4412](https://github.com/danielgindi/Charts/issues/4412)
+- corner [\#4410](https://github.com/danielgindi/Charts/issues/4410)
+- corne人、 [\#4409](https://github.com/danielgindi/Charts/issues/4409)
+- How do you edit xAxis values? [\#4401](https://github.com/danielgindi/Charts/issues/4401)
+- Cannot get x axis label into center of the bar chart [\#4394](https://github.com/danielgindi/Charts/issues/4394)
+- How the Remove the Background Graph lines from BarChart Graph  [\#4388](https://github.com/danielgindi/Charts/issues/4388)
+- How to Remove the Background Graph lines from BarChart Graph   [\#4387](https://github.com/danielgindi/Charts/issues/4387)
+- Add Gradient to Bar Chart - BarChartDataSet [\#4385](https://github.com/danielgindi/Charts/issues/4385)
+- How to run playgrounds? [\#4384](https://github.com/danielgindi/Charts/issues/4384)
+- CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/5/1/e/Charts/3.4.0/Charts.podspec.json Response: SSL peer certificate or SSH remote key was not OK [\#4381](https://github.com/danielgindi/Charts/issues/4381)
+- Mac Catalyst compile error: no such module 'Charts' [\#4380](https://github.com/danielgindi/Charts/issues/4380)
+- How to display the data \(one line has two different data\( -1 ~0 and 0 -1\) [\#4376](https://github.com/danielgindi/Charts/issues/4376)
+- Chart load with large amounts of data takes to much time [\#4372](https://github.com/danielgindi/Charts/issues/4372)
+- 使用复杂 [\#4369](https://github.com/danielgindi/Charts/issues/4369)
+- Overriding DefaultAxisValueFormatter Doesn't Work [\#4365](https://github.com/danielgindi/Charts/issues/4365)
+- RadarCharView data update may cause crash [\#4361](https://github.com/danielgindi/Charts/issues/4361)
+- SwiftUI tutorial Bar Chart [\#4360](https://github.com/danielgindi/Charts/issues/4360)
+- drawGridLinesBehindDataEnabled has no effect on CombinedChart [\#4357](https://github.com/danielgindi/Charts/issues/4357)
+- - [\#4356](https://github.com/danielgindi/Charts/issues/4356)
+- iOS Charts subclass Markerview use Swift always Build Error in “xxx-Swift.h” [\#4355](https://github.com/danielgindi/Charts/issues/4355)
+- Set images on xAxis on HorizontalBarChartView [\#4353](https://github.com/danielgindi/Charts/issues/4353)
+- How to set spacing between bars on a BarChartDataEntry [\#4352](https://github.com/danielgindi/Charts/issues/4352)
+- Swift 5.0 in 4.0.0 Branch? [\#4351](https://github.com/danielgindi/Charts/issues/4351)
+- Rounded bars swift5 [\#4350](https://github.com/danielgindi/Charts/issues/4350)
+-  The “Swift Language Version” \(SWIFT\_VERSION\) build setting must be set to a supported value for targets which use Swift. This setting can be set in the build settings editor. [\#4347](https://github.com/danielgindi/Charts/issues/4347)
+- DropDowm pod for xcode 9  [\#4346](https://github.com/danielgindi/Charts/issues/4346)
+- How to creat a custom LimitLine with two labels [\#4344](https://github.com/danielgindi/Charts/issues/4344)
+- How to remove top grid line for line chart [\#4343](https://github.com/danielgindi/Charts/issues/4343)
+- Bars not showing BarChart [\#4337](https://github.com/danielgindi/Charts/issues/4337)
+- Compiler issue Xcode 11.4 swift 5.2 using Carthage [\#4335](https://github.com/danielgindi/Charts/issues/4335)
+- Radar type 有没有圆形结构呢？ [\#4332](https://github.com/danielgindi/Charts/issues/4332)
+- Build error Module compiled with Swift 5.1.3 cannot be imported by the Swift 5.2 compiler [\#4322](https://github.com/danielgindi/Charts/issues/4322)
+- linecharts moveViewToX不起作用 [\#4313](https://github.com/danielgindi/Charts/issues/4313)
+- Compatibility with SwiftUI [\#4305](https://github.com/danielgindi/Charts/issues/4305)
+- CGAffineTransformInvert: singular matrix [\#4290](https://github.com/danielgindi/Charts/issues/4290)
+- BarChart.setData\(\) not working [\#4284](https://github.com/danielgindi/Charts/issues/4284)
+- Combined chart \(Scatter and Line\) producing random results. [\#4261](https://github.com/danielgindi/Charts/issues/4261)
+- Using charts with Mac Catalyst generate many deprecated warnings. [\#4249](https://github.com/danielgindi/Charts/issues/4249)
+- entries属性只能readonly了吗  能不能改成可以读写 [\#4108](https://github.com/danielgindi/Charts/issues/4108)
+- Draw gradient line in line chart [\#537](https://github.com/danielgindi/Charts/issues/537)
+
+**Merged pull requests:**
+
+- Update readme.md with link to SwiftUI tutorial [\#4400](https://github.com/danielgindi/Charts/pull/4400) ([Basistiy](https://github.com/Basistiy))
+- Increase iOS version to 9 in Package.swift [\#4399](https://github.com/danielgindi/Charts/pull/4399) ([Rubenfer](https://github.com/Rubenfer))
+- Fix AxisBase Formatter Getter \(Fixes \#4365\) [\#4366](https://github.com/danielgindi/Charts/pull/4366) ([giantramen](https://github.com/giantramen))
+- Added video tutorial to README [\#4286](https://github.com/danielgindi/Charts/pull/4286) ([rebeloper](https://github.com/rebeloper))
+
+## [v3.5.0](https://github.com/danielgindi/Charts/tree/v3.5.0) (2020-04-16)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.4.0...v3.5.0)
+
+**Implemented enhancements:**
+
+- Height of Half Pie Chart \(white space in the chart where the removed bottom half from pie chart should be\) [\#4033](https://github.com/danielgindi/Charts/issues/4033)
+
+**Closed issues:**
+
+- How to remove colors below bar chart [\#4334](https://github.com/danielgindi/Charts/issues/4334)
+- Last item is not displayed  [\#4324](https://github.com/danielgindi/Charts/issues/4324)
+- The Demo app Doesn't compile for tvOS [\#4320](https://github.com/danielgindi/Charts/issues/4320)
+- Module compiled with Swift 5.1.2 cannot be imported by Swift 5.2 compiler [\#4317](https://github.com/danielgindi/Charts/issues/4317)
+- Show 'k' instead of ',000' in large numbers at leftAxis [\#4309](https://github.com/danielgindi/Charts/issues/4309)
+- 为什么x轴和柱子之间有空间呢？ [\#4307](https://github.com/danielgindi/Charts/issues/4307)
+- why Legend.position is deprecated? How do I set the position of the legend？ [\#4306](https://github.com/danielgindi/Charts/issues/4306)
+- How to set 24 hour time format in x-axis of line chart? [\#4302](https://github.com/danielgindi/Charts/issues/4302)
+- can i customise your chart? [\#4301](https://github.com/danielgindi/Charts/issues/4301)
+- Getting the value of an item selected. [\#4295](https://github.com/danielgindi/Charts/issues/4295)
+- how to set the legend's position? [\#4292](https://github.com/danielgindi/Charts/issues/4292)
+- ChartLimitLine is not drawn as dashed [\#4291](https://github.com/danielgindi/Charts/issues/4291)
+- Legend not displayed correctly in iOS 13.2.2 [\#4289](https://github.com/danielgindi/Charts/issues/4289)
+- dyld: Library not loaded: @rpath/Charts.framework/Charts XCODE 11.3.1 [\#4280](https://github.com/danielgindi/Charts/issues/4280)
+- ChartData::getDataSetByLabel always return the first IChartDataSet when ignorecase = true [\#4274](https://github.com/danielgindi/Charts/issues/4274)
+- How to use hover? [\#4267](https://github.com/danielgindi/Charts/issues/4267)
+- AxisRange and drag [\#4264](https://github.com/danielgindi/Charts/issues/4264)
+- How to add legends with X axis and Y axis values in the balloon marker view in IOS Charts? [\#4263](https://github.com/danielgindi/Charts/issues/4263)
+- Can we set two fill colors for line chart? [\#4260](https://github.com/danielgindi/Charts/issues/4260)
+- i do not want show some value How do it? [\#4255](https://github.com/danielgindi/Charts/issues/4255)
+- `isAccessibilityElement` should not return `false` for `NSUIView` [\#4253](https://github.com/danielgindi/Charts/issues/4253)
+- x轴从数据量多切换到数据量少的时候 x轴间距变大 [\#4245](https://github.com/danielgindi/Charts/issues/4245)
+- Access level of ChartViewBase's API  [\#4243](https://github.com/danielgindi/Charts/issues/4243)
+- 数据源都是0的时候有问题 [\#4241](https://github.com/danielgindi/Charts/issues/4241)
+- How to set space between Y-Axis labels and graph [\#4237](https://github.com/danielgindi/Charts/issues/4237)
+- HorizontalBarChartView,when I use setVisibleXRangeMaximum\(5.0\),xAxis cannot show all label [\#4235](https://github.com/danielgindi/Charts/issues/4235)
+- OverLap stackview chart - Selected color - Layout Stack bar [\#4234](https://github.com/danielgindi/Charts/issues/4234)
+- Xcode tries to use AppKit when compiling with Mac Catalyst [\#4233](https://github.com/danielgindi/Charts/issues/4233)
+- CombinedChartView Legend only shows line data info not info for other types [\#4230](https://github.com/danielgindi/Charts/issues/4230)
+- Legend in CombinedChartView only shows Legend for LineData [\#4229](https://github.com/danielgindi/Charts/issues/4229)
+- X-Axis setLabel with force enabled not working [\#4228](https://github.com/danielgindi/Charts/issues/4228)
+- Can BarChartDataEntry with multiple Y values render icon once instead of for each Y value? [\#4225](https://github.com/danielgindi/Charts/issues/4225)
+- Radar chart - cannot hide yAxis [\#4224](https://github.com/danielgindi/Charts/issues/4224)
+- Highlight does not respect the draw order. [\#4223](https://github.com/danielgindi/Charts/issues/4223)
+- Source not able to compile [\#4221](https://github.com/danielgindi/Charts/issues/4221)
+- How to render radar-chart with live data and dynamic array entries? [\#4220](https://github.com/danielgindi/Charts/issues/4220)
+- How to color one quadrant of the graph?  [\#4219](https://github.com/danielgindi/Charts/issues/4219)
+- SwiftCharts: How to set space between x axis equally ? [\#4218](https://github.com/danielgindi/Charts/issues/4218)
+- How can i set xVals in line chat in latest version. [\#4217](https://github.com/danielgindi/Charts/issues/4217)
+- Separator between x-Axis value [\#4215](https://github.com/danielgindi/Charts/issues/4215)
+- Reload LineChartView with Button [\#4214](https://github.com/danielgindi/Charts/issues/4214)
+- Contains is not implemented in ChartDataSet, crashes when called [\#4212](https://github.com/danielgindi/Charts/issues/4212)
+- PieChart outside value label border [\#4210](https://github.com/danielgindi/Charts/issues/4210)
+- CombinedChartRenderer property : \_renderers should be set open [\#4208](https://github.com/danielgindi/Charts/issues/4208)
+- Create special line chart [\#4207](https://github.com/danielgindi/Charts/issues/4207)
+- How can I add images on Y axis instead of values [\#4206](https://github.com/danielgindi/Charts/issues/4206)
+- How to remove top and bottom extra space in LineChartView?  [\#4205](https://github.com/danielgindi/Charts/issues/4205)
+- Bar Chart Gradient color issue [\#4203](https://github.com/danielgindi/Charts/issues/4203)
+- Y轴上数据是整数值，但刻度是小数应该怎么办？怎么才能让刻度值只显示整数？ [\#4202](https://github.com/danielgindi/Charts/issues/4202)
+- How to add pieChartDataSet.sliceSpace only for the selected item? [\#4201](https://github.com/danielgindi/Charts/issues/4201)
+- \[LineChartView\] Issues with circles positions [\#4200](https://github.com/danielgindi/Charts/issues/4200)
+- BarChart bottom space when having a small value [\#4198](https://github.com/danielgindi/Charts/issues/4198)
+- Is there a way to add to the datapoint label in a line chart? [\#4196](https://github.com/danielgindi/Charts/issues/4196)
+- Change position of data labels to bottom of the line in ios charts [\#4195](https://github.com/danielgindi/Charts/issues/4195)
+- Custom chart with overrided legendRenderer not working [\#4194](https://github.com/danielgindi/Charts/issues/4194)
+- Is this possible to use with project catalyst? [\#4193](https://github.com/danielgindi/Charts/issues/4193)
+- pageviewcontroller Cannot drag inside    [\#4192](https://github.com/danielgindi/Charts/issues/4192)
+- How Pie chart Center Click Disable [\#4191](https://github.com/danielgindi/Charts/issues/4191)
+- How to set only given values to xAxis, set equal distance between those values? [\#4190](https://github.com/danielgindi/Charts/issues/4190)
+- How can i override the xAxisrenderer in RadarChartView [\#4189](https://github.com/danielgindi/Charts/issues/4189)
+- iOS Charts not showing all xAxis Value [\#4187](https://github.com/danielgindi/Charts/issues/4187)
+- How can I customize chart without modifying the source code?  [\#4185](https://github.com/danielgindi/Charts/issues/4185)
+- Add Line Cap to Bar for Horizontal Bar Chart [\#4183](https://github.com/danielgindi/Charts/issues/4183)
+- X/Y coordinates being rounded to whole numbers instead of being presented as decimals [\#4182](https://github.com/danielgindi/Charts/issues/4182)
+- I need to draw peichart like below image [\#4177](https://github.com/danielgindi/Charts/issues/4177)
+- Candlestick xAxis label's too small when zoomed out [\#4176](https://github.com/danielgindi/Charts/issues/4176)
+- How to change the color of text that displayed inside the chart ios swift 4. [\#4174](https://github.com/danielgindi/Charts/issues/4174)
+- runtime/cgo: could not obtain pthread\_keys on Xcode 11 simulator [\#4173](https://github.com/danielgindi/Charts/issues/4173)
+- PieChartView show xValuePosition and yValuePosition on item press [\#4172](https://github.com/danielgindi/Charts/issues/4172)
+- Should Version 4.0.0 be updated to include changes from recent releases? [\#4167](https://github.com/danielgindi/Charts/issues/4167)
+- How to control colors within a single dataSet? [\#4166](https://github.com/danielgindi/Charts/issues/4166)
+- X labels that display in 3.0.4 are not rendered in 3.0.5 [\#4165](https://github.com/danielgindi/Charts/issues/4165)
+- How to draw a circle markers when value is selected in Line Chart [\#4164](https://github.com/danielgindi/Charts/issues/4164)
+- LineChartView万级数据绘制缓慢卡顿 [\#4158](https://github.com/danielgindi/Charts/issues/4158)
+- UITableView does not scroll when dragging within chart for iOS 13. [\#4156](https://github.com/danielgindi/Charts/issues/4156)
+- How to properly subclass XAxis? [\#4155](https://github.com/danielgindi/Charts/issues/4155)
+- Line Chart ignores colors if mode is set to bezier. [\#4148](https://github.com/danielgindi/Charts/issues/4148)
+- BarChartRenderer FatalError: Index out of range  [\#4146](https://github.com/danielgindi/Charts/issues/4146)
+- I have two ChartLimitLine and I need to know how to fill the area between them  I'm using LineChartView [\#4142](https://github.com/danielgindi/Charts/issues/4142)
+- I can't set static count of y axes and labels [\#4139](https://github.com/danielgindi/Charts/issues/4139)
+- how can I set a Non-uniform coordinate Y-axis? [\#4137](https://github.com/danielgindi/Charts/issues/4137)
+- Buuble Chart event for Single bubble [\#4134](https://github.com/danielgindi/Charts/issues/4134)
+- Default Colors Should Support Dark Mode \[iOS 13\] [\#4133](https://github.com/danielgindi/Charts/issues/4133)
+- Entries are Assignment to readonly property. [\#4126](https://github.com/danielgindi/Charts/issues/4126)
+- BarChartView have interval between bar and xaxis [\#4115](https://github.com/danielgindi/Charts/issues/4115)
+- can not draw circle on axis as the picture [\#4111](https://github.com/danielgindi/Charts/issues/4111)
+- Empty Line Chart, setVisibleXRangeMaximum causing Fatal error: Double cannot be converted to Int [\#4109](https://github.com/danielgindi/Charts/issues/4109)
+- Description is still saying OSX [\#4106](https://github.com/danielgindi/Charts/issues/4106)
+- Line Graph draggable points just in y-axis. [\#4059](https://github.com/danielgindi/Charts/issues/4059)
+-  The x axis cannot draw displayed incorrectly. [\#4057](https://github.com/danielgindi/Charts/issues/4057)
+- Crash when using BarChartDataSet with BarChartData [\#4040](https://github.com/danielgindi/Charts/issues/4040)
+- leftAxis line disappears when filling area between two line charts. [\#4037](https://github.com/danielgindi/Charts/issues/4037)
+- Last value and highlight/selected values in candlestick chart [\#4036](https://github.com/danielgindi/Charts/issues/4036)
+- Last xAxis label cutting [\#4023](https://github.com/danielgindi/Charts/issues/4023)
+- `Fill` isn't extendable [\#3140](https://github.com/danielgindi/Charts/issues/3140)
+- Non-Public API Usage  [\#2899](https://github.com/danielgindi/Charts/issues/2899)
+- BarChartView: xAxis values are not aligned with bars [\#2106](https://github.com/danielgindi/Charts/issues/2106)
+- wanted beta testeur for new axe logarithmic [\#2102](https://github.com/danielgindi/Charts/issues/2102)
+
+**Merged pull requests:**
+
+- Fix warnings on current code base [\#4321](https://github.com/danielgindi/Charts/pull/4321) ([liuxuan30](https://github.com/liuxuan30))
+- Bugfix/legend offset double [\#4277](https://github.com/danielgindi/Charts/pull/4277) ([danielgindi](https://github.com/danielgindi))
+- Fix for \#4274 string comparison issue in ChartData::getDataSetByLabel [\#4275](https://github.com/danielgindi/Charts/pull/4275) ([PeterKaminski09](https://github.com/PeterKaminski09))
+- Restored correct velocity sampler [\#4273](https://github.com/danielgindi/Charts/pull/4273) ([danielgindi](https://github.com/danielgindi))
+- Bugfix/pie highlight [\#4272](https://github.com/danielgindi/Charts/pull/4272) ([danielgindi](https://github.com/danielgindi))
+- Call chartViewDidEndPanning on when \*panning\* is ended [\#4271](https://github.com/danielgindi/Charts/pull/4271) ([danielgindi](https://github.com/danielgindi))
+- labelXOffset = 10 is default for radar chart only [\#4270](https://github.com/danielgindi/Charts/pull/4270) ([danielgindi](https://github.com/danielgindi))
+- Use faster check for line whether it's inside drawing rect [\#4269](https://github.com/danielgindi/Charts/pull/4269) ([danielgindi](https://github.com/danielgindi))
+- Refactor/cleanup [\#4268](https://github.com/danielgindi/Charts/pull/4268) ([danielgindi](https://github.com/danielgindi))
+- address \#4033 draw half pie chart more accurate [\#4266](https://github.com/danielgindi/Charts/pull/4266) ([liuxuan30](https://github.com/liuxuan30))
+- Update README.md, added link to tutorial about Radar Charts. [\#4258](https://github.com/danielgindi/Charts/pull/4258) ([DavidPiper94](https://github.com/DavidPiper94))
+- Changes to fix Catalyst compatibility [\#4254](https://github.com/danielgindi/Charts/pull/4254) ([CAPIStkidd](https://github.com/CAPIStkidd))
+- Platform separation [\#4178](https://github.com/danielgindi/Charts/pull/4178) ([jjatie](https://github.com/jjatie))
+- introduce gracefully degrading abstractions for dark mode for ios and… [\#4171](https://github.com/danielgindi/Charts/pull/4171) ([motocodeltd](https://github.com/motocodeltd))
+- Performed recommended localization and internationalization changes. [\#4162](https://github.com/danielgindi/Charts/pull/4162) ([coltonlemmon](https://github.com/coltonlemmon))
+- Use interpolation instead of '+' concatenation for problematic expression [\#4123](https://github.com/danielgindi/Charts/pull/4123) ([Jumhyn](https://github.com/Jumhyn))
+- Allowing overriding for YAxisRenderer.drawYLabels [\#4089](https://github.com/danielgindi/Charts/pull/4089) ([muclemente](https://github.com/muclemente))
+- move isDrawCirclesEnabled check further up in code to avoid creating … [\#4050](https://github.com/danielgindi/Charts/pull/4050) ([xymtek](https://github.com/xymtek))
+
+## [v3.4.0](https://github.com/danielgindi/Charts/tree/v3.4.0) (2019-10-09)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.3.0...v3.4.0)
+
+**Fixed bugs:**
+
+- Line charts: Line sections disappear when zoomed in \(has PR\). [\#4099](https://github.com/danielgindi/Charts/issues/4099)
+- Line chart x axis animation is broken [\#4093](https://github.com/danielgindi/Charts/issues/4093)
+- LineChartView.highlightValue causes CoreGraphics API errors [\#4043](https://github.com/danielgindi/Charts/issues/4043)
+- Horizontal Bezier Line Graph Not Drawing Through All Points [\#3960](https://github.com/danielgindi/Charts/issues/3960)
+- Index out of bounds exception in v3.2 in createAccessibleElement [\#3659](https://github.com/danielgindi/Charts/issues/3659)
+
+**Closed issues:**
+
+- Xcode asking for constants instead of variables in Charts code [\#4161](https://github.com/danielgindi/Charts/issues/4161)
+- Blank space should not exist in BarChartView [\#4157](https://github.com/danielgindi/Charts/issues/4157)
+- Could not find module 'Charts' for target 'arm64-apple-ios'; found: x86\_64-apple-ios-simulator, x86\_64 [\#4154](https://github.com/danielgindi/Charts/issues/4154)
+- 指定哪个swift版本都报语法错误 [\#4145](https://github.com/danielgindi/Charts/issues/4145)
+- lineChart  customize the color or style of the selected point [\#4144](https://github.com/danielgindi/Charts/issues/4144)
+-   How do I customize the color or style of the selected point in a polygraph [\#4143](https://github.com/danielgindi/Charts/issues/4143)
+- Help, How to achieve this style? [\#4138](https://github.com/danielgindi/Charts/issues/4138)
+- AutoScaleMinMax doesn't work in candlestick iOS [\#4135](https://github.com/danielgindi/Charts/issues/4135)
+- 怎么手动设定滚动到指定x坐标 [\#4130](https://github.com/danielgindi/Charts/issues/4130)
+- The reuse of charts on tableviewcell [\#4127](https://github.com/danielgindi/Charts/issues/4127)
+- LineChartView decrease height if add many LineChartDataSets [\#4122](https://github.com/danielgindi/Charts/issues/4122)
+- 堆叠柱状图不同数据之间的间距 [\#4120](https://github.com/danielgindi/Charts/issues/4120)
+- Removing LineChartView to save memory? [\#4114](https://github.com/danielgindi/Charts/issues/4114)
+- h [\#4110](https://github.com/danielgindi/Charts/issues/4110)
+- swift 5 [\#4107](https://github.com/danielgindi/Charts/issues/4107)
+- Scatter charts dots needs to be shown even it is less than half [\#4096](https://github.com/danielgindi/Charts/issues/4096)
+- barchart 1st bar offset [\#4092](https://github.com/danielgindi/Charts/issues/4092)
+- Compiling Chart with Swift 5.1 raises compilation error [\#4090](https://github.com/danielgindi/Charts/issues/4090)
+- How to change color for Key's Label ? [\#4088](https://github.com/danielgindi/Charts/issues/4088)
+- y axis  [\#4087](https://github.com/danielgindi/Charts/issues/4087)
+- No chart data available \(displaying large data sets\) [\#4075](https://github.com/danielgindi/Charts/issues/4075)
+- 3.2.2 xBounds starts from 1 [\#4073](https://github.com/danielgindi/Charts/issues/4073)
+- Build error on Xcode 11 beta 3 - macOS app [\#4071](https://github.com/danielgindi/Charts/issues/4071)
+- Why not fix \#3865 in swift4.2 as well? [\#4067](https://github.com/danielgindi/Charts/issues/4067)
+- Pod install failed - Could not found branch v3.3 issue [\#4063](https://github.com/danielgindi/Charts/issues/4063)
+- Potential bug highlighting Bars in Bar chart  [\#4062](https://github.com/danielgindi/Charts/issues/4062)
+- PieChart slices with different height/thick [\#4061](https://github.com/danielgindi/Charts/issues/4061)
+- Line Chart crashes when upgrading from 3.2.1 to 3.2.2 or greater [\#4060](https://github.com/danielgindi/Charts/issues/4060)
+- How to set the shadow width? [\#4058](https://github.com/danielgindi/Charts/issues/4058)
+- iOS13 port [\#4056](https://github.com/danielgindi/Charts/issues/4056)
+- Embedding in Objective C++ project [\#4054](https://github.com/danielgindi/Charts/issues/4054)
+- Example project does not work for latest swift  [\#4053](https://github.com/danielgindi/Charts/issues/4053)
+- Line chart line color array issue [\#4052](https://github.com/danielgindi/Charts/issues/4052)
+- I set the display is double but turned into an integer [\#4051](https://github.com/danielgindi/Charts/issues/4051)
+- xAxis Renderer label [\#4039](https://github.com/danielgindi/Charts/issues/4039)
+- Highlight midPoint of visible area [\#4032](https://github.com/danielgindi/Charts/issues/4032)
+- Snap to position for x values \(paging\) [\#4030](https://github.com/danielgindi/Charts/issues/4030)
+- how can I use both chart in one view like video? [\#4026](https://github.com/danielgindi/Charts/issues/4026)
+- How to Parse xValue and yValue to LineChartData ? [\#4025](https://github.com/danielgindi/Charts/issues/4025)
+- Fatal error: Index out of range from subscript\(position: Index\) -\> Element [\#4024](https://github.com/danielgindi/Charts/issues/4024)
+- Pie chart label  [\#4022](https://github.com/danielgindi/Charts/issues/4022)
+- Cannot find "@import Charts;" in -Swift.h, I can only @import Charts in OC files, anything I missed? [\#4021](https://github.com/danielgindi/Charts/issues/4021)
+- Cannot subclass LineChartRenderer with Clang 11 [\#4018](https://github.com/danielgindi/Charts/issues/4018)
+- Unable to compile with Swift Package Manager due to missing dependencies [\#4016](https://github.com/danielgindi/Charts/issues/4016)
+- Show values in marker when you click a circle in LineChart [\#4015](https://github.com/danielgindi/Charts/issues/4015)
+- Is it possible to show only part of series on full XAxis labels? [\#4014](https://github.com/danielgindi/Charts/issues/4014)
+- BarChartRenderer FatalError: Index out of range [\#4013](https://github.com/danielgindi/Charts/issues/4013)
+- how to set max zoom scale for y-axis [\#4011](https://github.com/danielgindi/Charts/issues/4011)
+- ScatterChartDataSet basic initializer causes crashes [\#4010](https://github.com/danielgindi/Charts/issues/4010)
+- oc project could't use [\#4008](https://github.com/danielgindi/Charts/issues/4008)
+- Line chart issue [\#4005](https://github.com/danielgindi/Charts/issues/4005)
+- Crash on PieChartRenderer line 833 [\#4001](https://github.com/danielgindi/Charts/issues/4001)
+- BarChartView shows on UI when y value is zero [\#4000](https://github.com/danielgindi/Charts/issues/4000)
+- can make excel [\#3999](https://github.com/danielgindi/Charts/issues/3999)
+- Cannot remove an observer for the key path "bounds" because it is not registered as an observer [\#3995](https://github.com/danielgindi/Charts/issues/3995)
+- How to set y axis value with larger difference because my candles are showing very small in size please provide any way  [\#3993](https://github.com/danielgindi/Charts/issues/3993)
+- compiling for iOS 8.0, but module 'Charts' has a minimum deployment target of iOS 8.4: [\#3992](https://github.com/danielgindi/Charts/issues/3992)
+- SIGABRT [\#3986](https://github.com/danielgindi/Charts/issues/3986)
+- Getting The below error on Xcode update: Error Group :-1: Undefined symbol: \_OBJC\_CLASS\_$\_XBarChart :-1: Undefined symbol: \_OBJC\_CLASS\_$\_XBarChartConfiguration :-1: Undefined symbol: \_OBJC\_CLASS\_$\_XBarItem, When I run on real device. [\#3985](https://github.com/danielgindi/Charts/issues/3985)
+- Second to last value in stacked BarChart not drawn when the last value is zero [\#3984](https://github.com/danielgindi/Charts/issues/3984)
+- Value labels are not always showing in horizontal bar chart [\#3981](https://github.com/danielgindi/Charts/issues/3981)
+- When I manually integrated "charts", running the iOS9.0 emulator crashed. [\#3980](https://github.com/danielgindi/Charts/issues/3980)
+- LineChartDataSet function setColors is unavailable? [\#3979](https://github.com/danielgindi/Charts/issues/3979)
+- notifyDataSetChanged\(\) crashes with CGAffineTransformInvert: singular matrix. [\#3978](https://github.com/danielgindi/Charts/issues/3978)
+- this version is 3.2.2 in pods, this version has problem [\#3977](https://github.com/danielgindi/Charts/issues/3977)
+- Undefined symbol: method descriptor for Charts.ChartViewBase.initialize\(\) -\> \(\) [\#3976](https://github.com/danielgindi/Charts/issues/3976)
+- PieChart highlightEnabled flag operation is reverse of setting [\#3975](https://github.com/danielgindi/Charts/issues/3975)
+- I am not getting the last value  of x axis in the group chart [\#3974](https://github.com/danielgindi/Charts/issues/3974)
+- Charts 3.3.0 not running on Xcode 10.2 [\#3972](https://github.com/danielgindi/Charts/issues/3972)
+- change line chart legend text color [\#3971](https://github.com/danielgindi/Charts/issues/3971)
+- drawCenterTextEnable [\#3969](https://github.com/danielgindi/Charts/issues/3969)
+- Installing version 3.3  from Pods not found [\#3968](https://github.com/danielgindi/Charts/issues/3968)
+- zero value in bar chart [\#3967](https://github.com/danielgindi/Charts/issues/3967)
+- \[Question\] Line Chart Filled Circle Hole when highlighted [\#3966](https://github.com/danielgindi/Charts/issues/3966)
+- How to change pie chart boarder color and width size ? and separator line width size and curve? in swift 4 [\#3959](https://github.com/danielgindi/Charts/issues/3959)
+- Charts Pagination [\#3957](https://github.com/danielgindi/Charts/issues/3957)
+- button press [\#3956](https://github.com/danielgindi/Charts/issues/3956)
+- Edit leading Trailing and width of bar [\#3954](https://github.com/danielgindi/Charts/issues/3954)
+- Can't suspend the ongoing drag  [\#3953](https://github.com/danielgindi/Charts/issues/3953)
+- incorrect display in LineChartView When all yAxis data being 0 [\#3950](https://github.com/danielgindi/Charts/issues/3950)
+- Balloon Marker Swift errors [\#3947](https://github.com/danielgindi/Charts/issues/3947)
+- Linhas de sobreposição PieChart  [\#3942](https://github.com/danielgindi/Charts/issues/3942)
+- Display Attributed String on X-Axis [\#3941](https://github.com/danielgindi/Charts/issues/3941)
+- getHighlightByTouchPoint will get nil [\#3940](https://github.com/danielgindi/Charts/issues/3940)
+- Fatal error: removeEntry is not implemented in ChartBaseDataSet: [\#3937](https://github.com/danielgindi/Charts/issues/3937)
+- Line graph points create lines to other points [\#3936](https://github.com/danielgindi/Charts/issues/3936)
+- CombinedChart and data [\#3930](https://github.com/danielgindi/Charts/issues/3930)
+- Gradient and round corner in bar chart [\#3928](https://github.com/danielgindi/Charts/issues/3928)
+- Slide space color pie-chart  [\#3926](https://github.com/danielgindi/Charts/issues/3926)
+- Cannot build enterprise with Charts [\#3924](https://github.com/danielgindi/Charts/issues/3924)
+- ChartUtils.swift line 225 [\#3922](https://github.com/danielgindi/Charts/issues/3922)
+- Not Drawing Chart With Exact Axis [\#3921](https://github.com/danielgindi/Charts/issues/3921)
+- LineChartView with a line that goes backwards [\#3919](https://github.com/danielgindi/Charts/issues/3919)
+- Remove slices text in pieChart [\#3918](https://github.com/danielgindi/Charts/issues/3918)
+- Crash at BarChartDataSet as! IBarChartDataSet [\#3917](https://github.com/danielgindi/Charts/issues/3917)
+- carthage support lagging - needs updating for Xcode 10.2 & Swift5 [\#3914](https://github.com/danielgindi/Charts/issues/3914)
+- The first dot doesn't show up when I use lineChart [\#3912](https://github.com/danielgindi/Charts/issues/3912)
+- How to listen to the end of a chart swipe to call a method [\#3911](https://github.com/danielgindi/Charts/issues/3911)
+- How to display single data when using LineChartView [\#3910](https://github.com/danielgindi/Charts/issues/3910)
+- Straight Line in third quadrant does't show up [\#3898](https://github.com/danielgindi/Charts/issues/3898)
+- Horizontal scrolling in long vertical tableView causes the outer table to jump [\#3866](https://github.com/danielgindi/Charts/issues/3866)
+- PieChart with value lines with very small values render values on top of each other [\#3613](https://github.com/danielgindi/Charts/issues/3613)
+- Line Chart do not draw line for Data Set [\#2567](https://github.com/danielgindi/Charts/issues/2567)
+- Stacked bar marker returns entry.y of entire stack [\#2173](https://github.com/danielgindi/Charts/issues/2173)
+- Repeating Xaxis values [\#2143](https://github.com/danielgindi/Charts/issues/2143)
+
+**Merged pull requests:**
+
+- Apply Xcode11 changes [\#4153](https://github.com/danielgindi/Charts/pull/4153) ([liuxuan30](https://github.com/liuxuan30))
+- Fixes \#4099: Line renderer did not render lines if their coordinates fell outside of the viewport. [\#4100](https://github.com/danielgindi/Charts/pull/4100) ([4np](https://github.com/4np))
+- Fix line chart x axis animation \#4093, also close \#3960 [\#4094](https://github.com/danielgindi/Charts/pull/4094) ([liuxuan30](https://github.com/liuxuan30))
+- Update License [\#4055](https://github.com/danielgindi/Charts/pull/4055) ([jobinsjohn](https://github.com/jobinsjohn))
+- fixed stacked chart bug when there are different stacks on columns. [\#4029](https://github.com/danielgindi/Charts/pull/4029) ([Scalman](https://github.com/Scalman))
+- Fix Swift Package Manager compile issue [\#4017](https://github.com/danielgindi/Charts/pull/4017) ([rynecheow](https://github.com/rynecheow))
+- Added a safety check before an unsafe array operation [\#4006](https://github.com/danielgindi/Charts/pull/4006) ([UberNick](https://github.com/UberNick))
+- fix \#3975 \(pie chart highlight disabled will lead to empty slice\) [\#3996](https://github.com/danielgindi/Charts/pull/3996) ([liuxuan30](https://github.com/liuxuan30))
+- For \#3917. make init\(label: String?\) convenient initializer [\#3973](https://github.com/danielgindi/Charts/pull/3973) ([liuxuan30](https://github.com/liuxuan30))
+- Avoid passing NaN to CoreGraphics API \(Fixes \#1626\) [\#2568](https://github.com/danielgindi/Charts/pull/2568) ([chiahan1123](https://github.com/chiahan1123))
+
+## [v3.3.0](https://github.com/danielgindi/Charts/tree/v3.3.0) (2019-04-24)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.2.2...v3.3.0)
+
+**Implemented enhancements:**
+
+- Provide pre-compiled universal binary [\#3867](https://github.com/danielgindi/Charts/issues/3867)
 - Renamed `values` to `entries` to reflect the property's type [\#3847](https://github.com/danielgindi/Charts/pull/3847) ([jjatie](https://github.com/jjatie))
 
 **Fixed bugs:**
@@ -13,7 +352,23 @@
 
 **Closed issues:**
 
+- 雷达图的拐点是怎么设置的 [\#3964](https://github.com/danielgindi/Charts/issues/3964)
+- BarChartView没有从0开始 [\#3963](https://github.com/danielgindi/Charts/issues/3963)
+- version 3.3 using spm results invalid string error [\#3962](https://github.com/danielgindi/Charts/issues/3962)
+- 折线图能分页吗 就是滑动到最左边 网络请求再加载数据 [\#3961](https://github.com/danielgindi/Charts/issues/3961)
+- BarChartView problem on dataset count changed [\#3958](https://github.com/danielgindi/Charts/issues/3958)
+- No Such Module 'Charts' [\#3955](https://github.com/danielgindi/Charts/issues/3955)
+- drawing asynchronous [\#3952](https://github.com/danielgindi/Charts/issues/3952)
+- demo can not run [\#3951](https://github.com/danielgindi/Charts/issues/3951)
+- BarChartView extends all bars to bottom when all values are negative [\#3949](https://github.com/danielgindi/Charts/issues/3949)
+- xcode10.2,swift5,chart version 3.3.0 [\#3948](https://github.com/danielgindi/Charts/issues/3948)
+- Compiling for iOS 8.1, but module 'Charts' has a minimum deployment target of iOS 8.4 [\#3946](https://github.com/danielgindi/Charts/issues/3946)
+- X轴的Label显示间隔会随着值的增加而变大, 能控制显示间隔吗? [\#3943](https://github.com/danielgindi/Charts/issues/3943)
 -  the first point of LineChartView is not displayed, and so is demo [\#3938](https://github.com/danielgindi/Charts/issues/3938)
+- why？？？？？ [\#3934](https://github.com/danielgindi/Charts/issues/3934)
+- The “Swift Language Version” \(SWIFT\_VERSION\) build setting must be set to a supported value for targets which use Swift. Supported values are: 4.0, 4.2, 5.0. This setting can be set in the build settings editor. [\#3932](https://github.com/danielgindi/Charts/issues/3932)
+- error: SWIFT\_VERSION '3.0' is unsupported, supported versions are: 4.0, 4.2, 5.0. \(in target 'Charts'\) [\#3929](https://github.com/danielgindi/Charts/issues/3929)
+- 最新版更新后的问题 [\#3927](https://github.com/danielgindi/Charts/issues/3927)
 - How can i get CenterEntry in the View when i setted the MaxVisibleRange? [\#3925](https://github.com/danielgindi/Charts/issues/3925)
 - EXC\_BAD\_ACCESS error on PieChart [\#3923](https://github.com/danielgindi/Charts/issues/3923)
 - The first dot doesn't show up when I use lineChart [\#3915](https://github.com/danielgindi/Charts/issues/3915)
@@ -76,6 +431,7 @@
 - Align `ChartLimit.LabelPosition` naming with `UIRectCorner` [\#3846](https://github.com/danielgindi/Charts/pull/3846) ([jjatie](https://github.com/jjatie))
 
 ## [v3.2.2](https://github.com/danielgindi/Charts/tree/v3.2.2) (2019-02-13)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v3.2.1...v3.2.2)
 
 **Implemented enhancements:**
@@ -205,7 +561,6 @@
 - Add Collection conformances to ChartDataSet types [\#3815](https://github.com/danielgindi/Charts/pull/3815) ([jjatie](https://github.com/jjatie))
 - Fix condition that is checked before `chartTranslated` delegate method call [\#3804](https://github.com/danielgindi/Charts/pull/3804) ([anton-filimonov](https://github.com/anton-filimonov))
 - fix \#3719 [\#3778](https://github.com/danielgindi/Charts/pull/3778) ([liuxuan30](https://github.com/liuxuan30))
-- Turned gradient components and locations into constants [\#3775](https://github.com/danielgindi/Charts/pull/3775) ([jjatie](https://github.com/jjatie))
 - add chartScaled\(\) call after double tap in BarLineChartViewBase [\#3770](https://github.com/danielgindi/Charts/pull/3770) ([artemiusmk](https://github.com/artemiusmk))
 - Fixes sharp edges on the line chart [\#3764](https://github.com/danielgindi/Charts/pull/3764) ([stokatyan](https://github.com/stokatyan))
 - Fix applying lineCap value for line chart data sets \(Fixes \#3739\) [\#3740](https://github.com/danielgindi/Charts/pull/3740) ([anton-filimonov](https://github.com/anton-filimonov))
@@ -220,9 +575,9 @@
 - improvements in barRect height calculation  [\#3650](https://github.com/danielgindi/Charts/pull/3650) ([potato04](https://github.com/potato04))
 - Update document to latest format [\#3621](https://github.com/danielgindi/Charts/pull/3621) ([kemchenj](https://github.com/kemchenj))
 - Feature - ChartView Pan Ended Delegate Call [\#3612](https://github.com/danielgindi/Charts/pull/3612) ([AntonTheDev](https://github.com/AntonTheDev))
-- Axis Renderers Cleanup [\#3164](https://github.com/danielgindi/Charts/pull/3164) ([jjatie](https://github.com/jjatie))
 
 ## [v3.2.1](https://github.com/danielgindi/Charts/tree/v3.2.1) (2018-10-08)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v3.2.0...v3.2.1)
 
 **Closed issues:**
@@ -274,6 +629,7 @@
 - When the number of numeric numbers on the Y axis does not agree, the right of the multiple charts will not be aligned. [\#3347](https://github.com/danielgindi/Charts/issues/3347)
 
 ## [v3.2.0](https://github.com/danielgindi/Charts/tree/v3.2.0) (2018-09-17)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v3.1.1...v3.2.0)
 
 **Fixed bugs:**
@@ -474,32 +830,25 @@
 
 **Merged pull requests:**
 
-- Add Swift version 4.1 to podspec [\#3608](https://github.com/danielgindi/Charts/pull/3608) ([larryonoff](https://github.com/larryonoff))
 - update barRect.size.height calculation [\#3587](https://github.com/danielgindi/Charts/pull/3587) ([potato04](https://github.com/potato04))
-- Add label colors to legend entries [\#3558](https://github.com/danielgindi/Charts/pull/3558) ([petester42](https://github.com/petester42))
 - Support inlune bubble viz selection [\#3548](https://github.com/danielgindi/Charts/pull/3548) ([chuynadamas](https://github.com/chuynadamas))
 - fix the error title for demo [\#3528](https://github.com/danielgindi/Charts/pull/3528) ([yangasahi](https://github.com/yangasahi))
 - Changes for Swift 4.2, Xcode 10 and iOS 12 [\#3522](https://github.com/danielgindi/Charts/pull/3522) ([jlcanale](https://github.com/jlcanale))
 - Accessibility Support for \(most\) Chart types [\#3520](https://github.com/danielgindi/Charts/pull/3520) ([mathewa6](https://github.com/mathewa6))
 - Changed comment that referenced getFormattedValue\(\) method in IValueFormatter [\#3518](https://github.com/danielgindi/Charts/pull/3518) ([JCMcLovin](https://github.com/JCMcLovin))
-- Fix merge conflicts in \#3218 [\#3500](https://github.com/danielgindi/Charts/pull/3500) ([petester42](https://github.com/petester42))
-- Make legendRenderer property public in order to be externally customizable [\#3445](https://github.com/danielgindi/Charts/pull/3445) ([nagykatalin](https://github.com/nagykatalin))
 - Fix broken demo link in readme [\#3440](https://github.com/danielgindi/Charts/pull/3440) ([robert-cronin](https://github.com/robert-cronin))
 - Added clamping function for `Comparable` [\#3435](https://github.com/danielgindi/Charts/pull/3435) ([jjatie](https://github.com/jjatie))
-- Fix CocoaPods compilation [\#3432](https://github.com/danielgindi/Charts/pull/3432) ([larryonoff](https://github.com/larryonoff))
 - update candle chart view options in demo project [\#3424](https://github.com/danielgindi/Charts/pull/3424) ([cuong1112035](https://github.com/cuong1112035))
 - Add Objective-c compatible for turning off drag in X and Y Axis separately [\#3421](https://github.com/danielgindi/Charts/pull/3421) ([lennonhe](https://github.com/lennonhe))
-- Added gradient line drawing to LineChartRenderer. based on PR \#3142 [\#3415](https://github.com/danielgindi/Charts/pull/3415) ([larryonoff](https://github.com/larryonoff))
 - Add more render options for y axis labels [\#3406](https://github.com/danielgindi/Charts/pull/3406) ([alexrepty](https://github.com/alexrepty))
-- Refactored ChartData [\#3169](https://github.com/danielgindi/Charts/pull/3169) ([jjatie](https://github.com/jjatie))
-- Dataset logic cleanup [\#3001](https://github.com/danielgindi/Charts/pull/3001) ([jjatie](https://github.com/jjatie))
-- Added value text rotation [\#2200](https://github.com/danielgindi/Charts/pull/2200) ([chinh-tran](https://github.com/chinh-tran))
 
 ## [v3.1.1](https://github.com/danielgindi/Charts/tree/v3.1.1) (2018-04-02)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/3.1.1...v3.1.1)
 
 ## [3.1.1](https://github.com/danielgindi/Charts/tree/3.1.1) (2018-04-02)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.1.0...3.1.1)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/3.1.0...3.1.1)
 
 **Fixed bugs:**
 
@@ -559,11 +908,13 @@
 - Update ILineRadarChartDataSet.swift [\#3366](https://github.com/danielgindi/Charts/pull/3366) ([Ewg777](https://github.com/Ewg777))
 - Add option to disable clipping data to contentRect [\#3360](https://github.com/danielgindi/Charts/pull/3360) ([wtmoose](https://github.com/wtmoose))
 
-## [v3.1.0](https://github.com/danielgindi/Charts/tree/v3.1.0) (2018-03-22)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/3.1.0...v3.1.0)
-
 ## [3.1.0](https://github.com/danielgindi/Charts/tree/3.1.0) (2018-03-22)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.5...3.1.0)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.1.0...3.1.0)
+
+## [v3.1.0](https://github.com/danielgindi/Charts/tree/v3.1.0) (2018-03-22)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.5...v3.1.0)
 
 **Fixed bugs:**
 
@@ -717,23 +1068,19 @@
 - Fixed a duplicated assignment compared with obj-c code. [\#3179](https://github.com/danielgindi/Charts/pull/3179) ([canapio](https://github.com/canapio))
 - Fixed X-Axis Labels Not Showing \(\#3154\) [\#3174](https://github.com/danielgindi/Charts/pull/3174) ([leedsalex](https://github.com/leedsalex))
 - fix programatical unhighlighting for BarCharView [\#3159](https://github.com/danielgindi/Charts/pull/3159) ([jekahy](https://github.com/jekahy))
-- Removed optionality from valueFormatter where appropriate [\#3106](https://github.com/danielgindi/Charts/pull/3106) ([jjatie](https://github.com/jjatie))
-- Moved the default value formatter [\#3088](https://github.com/danielgindi/Charts/pull/3088) ([jjatie](https://github.com/jjatie))
-- Utils Cleanup [\#3054](https://github.com/danielgindi/Charts/pull/3054) ([jjatie](https://github.com/jjatie))
-- weak -\> unowned [\#3039](https://github.com/danielgindi/Charts/pull/3039) ([jjatie](https://github.com/jjatie))
 - Fix BalloonMarker's text position calculation, consider insets [\#3035](https://github.com/danielgindi/Charts/pull/3035) ([yangcaimu](https://github.com/yangcaimu))
-- Chartdata collection refactor [\#3024](https://github.com/danielgindi/Charts/pull/3024) ([jjatie](https://github.com/jjatie))
-- Chartdata collection conformance [\#3023](https://github.com/danielgindi/Charts/pull/3023) ([jjatie](https://github.com/jjatie))
 - Give the users customizable axis label limits \(Fixes \#2085\) [\#2894](https://github.com/danielgindi/Charts/pull/2894) ([igzrobertoestrada](https://github.com/igzrobertoestrada))
 - For \#2840. add dataIndex parameter in `highlightValue\(\)` calls [\#2852](https://github.com/danielgindi/Charts/pull/2852) ([liuxuan30](https://github.com/liuxuan30))
 - fix \#2356 crash if floor\(10.0 \* intervalMagnitude\) is 0.0 [\#2377](https://github.com/danielgindi/Charts/pull/2377) ([liuxuan30](https://github.com/liuxuan30))
 - Fixes the distance issue between the legend and the horizontal bar chart \(Fixes \#2138\) [\#2214](https://github.com/danielgindi/Charts/pull/2214) ([SvenMuc](https://github.com/SvenMuc))
 
 ## [v3.0.5](https://github.com/danielgindi/Charts/tree/v3.0.5) (2018-01-08)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.5...v3.0.5)
 
 ## [3.0.5](https://github.com/danielgindi/Charts/tree/3.0.5) (2018-01-08)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.4...3.0.5)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.4...3.0.5)
 
 **Implemented enhancements:**
 
@@ -952,35 +1299,28 @@
 
 **Merged pull requests:**
 
-- Syncing 4.0.0 with master [\#3160](https://github.com/danielgindi/Charts/pull/3160) ([jjatie](https://github.com/jjatie))
 - Subclassing of LegendRenderer didn't take any effect [\#3149](https://github.com/danielgindi/Charts/pull/3149) ([l-lemesev](https://github.com/l-lemesev))
 - Update ViewPortHandler.swift [\#3143](https://github.com/danielgindi/Charts/pull/3143) ([ParkinWu](https://github.com/ParkinWu))
-- Renderer protocols [\#3136](https://github.com/danielgindi/Charts/pull/3136) ([jjatie](https://github.com/jjatie))
 - Update 4.0.0 with master [\#3135](https://github.com/danielgindi/Charts/pull/3135) ([jjatie](https://github.com/jjatie))
 - Fix axis label disappear when zooming in deep enough [\#3132](https://github.com/danielgindi/Charts/pull/3132) ([liuxuan30](https://github.com/liuxuan30))
-- Updating 4.0.0 with latest changes in master [\#3130](https://github.com/danielgindi/Charts/pull/3130) ([jjatie](https://github.com/jjatie))
 - add option to build demo projects unit tests on iOS [\#3121](https://github.com/danielgindi/Charts/pull/3121) ([liuxuan30](https://github.com/liuxuan30))
 - Makes ChartsDemo compiling again [\#3117](https://github.com/danielgindi/Charts/pull/3117) ([valeriyvan](https://github.com/valeriyvan))
 - Fixed using wrong axis \(Issue \#2257\) [\#3114](https://github.com/danielgindi/Charts/pull/3114) ([defranke](https://github.com/defranke))
 - for \#3061 fix animation crash [\#3098](https://github.com/danielgindi/Charts/pull/3098) ([liuxuan30](https://github.com/liuxuan30))
 - Refactored ChartUtils method into CGPoint extension [\#3087](https://github.com/danielgindi/Charts/pull/3087) ([jjatie](https://github.com/jjatie))
-- Moved ChartUtils drawing methods into CGContext extension [\#3086](https://github.com/danielgindi/Charts/pull/3086) ([jjatie](https://github.com/jjatie))
 - for \#2745. chart should be weak. [\#3078](https://github.com/danielgindi/Charts/pull/3078) ([liuxuan30](https://github.com/liuxuan30))
 - Fix a bug may cause infinite loop. [\#3073](https://github.com/danielgindi/Charts/pull/3073) ([JyHu](https://github.com/JyHu))
-- Chartviewbase redundant ivar [\#3045](https://github.com/danielgindi/Charts/pull/3045) ([jjatie](https://github.com/jjatie))
 - Removed `isKind\(of:\)` [\#3044](https://github.com/danielgindi/Charts/pull/3044) ([jjatie](https://github.com/jjatie))
 - Removed redundant ivars in BarLineChartViewBase [\#3043](https://github.com/danielgindi/Charts/pull/3043) ([jjatie](https://github.com/jjatie))
 - fileprivate -\> private [\#3042](https://github.com/danielgindi/Charts/pull/3042) ([jjatie](https://github.com/jjatie))
 - Viewportjob minor cleanup [\#3041](https://github.com/danielgindi/Charts/pull/3041) ([jjatie](https://github.com/jjatie))
 - Removed @objc from internal properties [\#3038](https://github.com/danielgindi/Charts/pull/3038) ([jjatie](https://github.com/jjatie))
 - Minor changes to BubbleChartRenderer logic [\#3010](https://github.com/danielgindi/Charts/pull/3010) ([jjatie](https://github.com/jjatie))
-- BarChartRenderer Logic cleanup [\#3008](https://github.com/danielgindi/Charts/pull/3008) ([jjatie](https://github.com/jjatie))
 - Minor changes to Animator [\#3005](https://github.com/danielgindi/Charts/pull/3005) ([jjatie](https://github.com/jjatie))
 - Minor cleanup to Highlighter types [\#3003](https://github.com/danielgindi/Charts/pull/3003) ([jjatie](https://github.com/jjatie))
 - Resubmit of \#2730 [\#3002](https://github.com/danielgindi/Charts/pull/3002) ([jjatie](https://github.com/jjatie))
 - The backing var is not necessary. [\#3000](https://github.com/danielgindi/Charts/pull/3000) ([jjatie](https://github.com/jjatie))
 - Minor refactoring of Formatter logic [\#2998](https://github.com/danielgindi/Charts/pull/2998) ([jjatie](https://github.com/jjatie))
-- Remove java interface convention [\#2997](https://github.com/danielgindi/Charts/pull/2997) ([jjatie](https://github.com/jjatie))
 - Removed methods and properties deprecated in 1.0 [\#2996](https://github.com/danielgindi/Charts/pull/2996) ([jjatie](https://github.com/jjatie))
 - Replaced `ChartUtils` methods with `CGSize` extensions [\#2995](https://github.com/danielgindi/Charts/pull/2995) ([jjatie](https://github.com/jjatie))
 - Replaced relevant `ChartUtils` methods with `Double` extensions [\#2994](https://github.com/danielgindi/Charts/pull/2994) ([jjatie](https://github.com/jjatie))
@@ -1006,11 +1346,13 @@
 - add example playground [\#2364](https://github.com/danielgindi/Charts/pull/2364) ([thierryH91200](https://github.com/thierryH91200))
 - Compatibility with swift playgrounds [\#2335](https://github.com/danielgindi/Charts/pull/2335) ([macteo](https://github.com/macteo))
 
-## [3.0.4](https://github.com/danielgindi/Charts/tree/3.0.4) (2017-09-21)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.4...3.0.4)
-
 ## [v3.0.4](https://github.com/danielgindi/Charts/tree/v3.0.4) (2017-09-21)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.3...v3.0.4)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.4...v3.0.4)
+
+## [3.0.4](https://github.com/danielgindi/Charts/tree/3.0.4) (2017-09-21)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.3...3.0.4)
 
 **Closed issues:**
 
@@ -1041,10 +1383,12 @@
 - Changes for Swift 4 [\#2507](https://github.com/danielgindi/Charts/pull/2507) ([liuxuan30](https://github.com/liuxuan30))
 
 ## [3.0.3](https://github.com/danielgindi/Charts/tree/3.0.3) (2017-09-08)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.3...3.0.3)
 
 ## [v3.0.3](https://github.com/danielgindi/Charts/tree/v3.0.3) (2017-09-08)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.2...v3.0.3)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.2...v3.0.3)
 
 **Implemented enhancements:**
 
@@ -1376,7 +1720,6 @@
 - How to add a fade background for data values [\#2320](https://github.com/danielgindi/Charts/issues/2320)
 - Limit Line after update to 3.0.2 no longer shown [\#2319](https://github.com/danielgindi/Charts/issues/2319)
 - Charts v3.0.2 does not build using Carthage [\#2317](https://github.com/danielgindi/Charts/issues/2317)
-- Too much Warnings on the comments [\#2316](https://github.com/danielgindi/Charts/issues/2316)
 - spaceMin and spaceMax are not percentages [\#2314](https://github.com/danielgindi/Charts/issues/2314)
 - API for increasing or decreasing condition for CandleStick Chart [\#2311](https://github.com/danielgindi/Charts/issues/2311)
 - Create Tag to include 'fix for Xcode 8.3' [\#2309](https://github.com/danielgindi/Charts/issues/2309)
@@ -1412,11 +1755,13 @@
 - fix \#2222 move default backgroundColor to initialize\(\) [\#2228](https://github.com/danielgindi/Charts/pull/2228) ([liuxuan30](https://github.com/liuxuan30))
 - Fix \#1879. Similar cut in half issue in scatter chart like others [\#1891](https://github.com/danielgindi/Charts/pull/1891) ([liuxuan30](https://github.com/liuxuan30))
 
-## [v3.0.2](https://github.com/danielgindi/Charts/tree/v3.0.2) (2017-04-02)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.2...v3.0.2)
-
 ## [3.0.2](https://github.com/danielgindi/Charts/tree/3.0.2) (2017-04-02)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.1...3.0.2)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.2...3.0.2)
+
+## [v3.0.2](https://github.com/danielgindi/Charts/tree/v3.0.2) (2017-04-02)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.1...v3.0.2)
 
 **Implemented enhancements:**
 
@@ -1745,9 +2090,7 @@
 - Updated to use Realm version 2.4.3 [\#2199](https://github.com/danielgindi/Charts/pull/2199) ([kimdv](https://github.com/kimdv))
 - Fixed the inconsistency of AxisMax and AxisMin [\#2177](https://github.com/danielgindi/Charts/pull/2177) ([aelam](https://github.com/aelam))
 - Fixes index out of range crash. [\#2167](https://github.com/danielgindi/Charts/pull/2167) ([kzaher](https://github.com/kzaher))
-- remove deprecation warnings in XCode 8.3  [\#2162](https://github.com/danielgindi/Charts/pull/2162) ([LeviDahl](https://github.com/LeviDahl))
 - 'backgroundColor' is inaccessible due to 'internal' protection level … [\#2156](https://github.com/danielgindi/Charts/pull/2156) ([thierryH91200](https://github.com/thierryH91200))
-- Fixes Xcode 8.3 beta build issue [\#2116](https://github.com/danielgindi/Charts/pull/2116) ([davidarve](https://github.com/davidarve))
 - Adds NSPhotoLibraryUsageDescription to plist of ChartsDemo [\#2101](https://github.com/danielgindi/Charts/pull/2101) ([valeriyvan](https://github.com/valeriyvan))
 - Fix demo and test targets not running/testing [\#2084](https://github.com/danielgindi/Charts/pull/2084) ([petester42](https://github.com/petester42))
 - fix a typo, as orientation is horizontal by default [\#2078](https://github.com/danielgindi/Charts/pull/2078) ([liuxuan30](https://github.com/liuxuan30))
@@ -1757,11 +2100,13 @@
 - Update "Usage" section of README [\#1984](https://github.com/danielgindi/Charts/pull/1984) ([elaewin](https://github.com/elaewin))
 - All Charts Icons Support Swift3 \[Dub \#629, \#624, \#1261\] [\#1793](https://github.com/danielgindi/Charts/pull/1793) ([abjurato](https://github.com/abjurato))
 
-## [3.0.1](https://github.com/danielgindi/Charts/tree/3.0.1) (2016-11-20)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.1...3.0.1)
-
 ## [v3.0.1](https://github.com/danielgindi/Charts/tree/v3.0.1) (2016-11-20)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v2.3.1...v3.0.1)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.1...v3.0.1)
+
+## [3.0.1](https://github.com/danielgindi/Charts/tree/3.0.1) (2016-11-20)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/2.3.1...3.0.1)
 
 **Closed issues:**
 
@@ -1829,13 +2174,17 @@
 
 **Merged pull requests:**
 
+- Updated Width Constraints - Fixes \#1770 [\#1771](https://github.com/danielgindi/Charts/pull/1771) ([SumoSimo](https://github.com/SumoSimo))
 - Added a check against NaN [\#1733](https://github.com/danielgindi/Charts/pull/1733) ([Selficide](https://github.com/Selficide))
-
-## [v2.3.1](https://github.com/danielgindi/Charts/tree/v2.3.1) (2016-11-04)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/2.3.1...v2.3.1)
+- update cocoapods [\#1684](https://github.com/danielgindi/Charts/pull/1684) ([petester42](https://github.com/petester42))
 
 ## [2.3.1](https://github.com/danielgindi/Charts/tree/2.3.1) (2016-11-04)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.0...2.3.1)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v2.3.1...2.3.1)
+
+## [v2.3.1](https://github.com/danielgindi/Charts/tree/v2.3.1) (2016-11-04)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.0...v2.3.1)
 
 **Fixed bugs:**
 
@@ -1937,14 +2286,14 @@
 **Merged pull requests:**
 
 - Fix png image using JPEG type when being saved on macOS [\#1783](https://github.com/danielgindi/Charts/pull/1783) ([petester42](https://github.com/petester42))
-- Updated Width Constraints - Fixes \#1770 [\#1771](https://github.com/danielgindi/Charts/pull/1771) ([SumoSimo](https://github.com/SumoSimo))
-- update cocoapods [\#1684](https://github.com/danielgindi/Charts/pull/1684) ([petester42](https://github.com/petester42))
-
-## [3.0.0](https://github.com/danielgindi/Charts/tree/3.0.0) (2016-10-19)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v3.0.0...3.0.0)
 
 ## [v3.0.0](https://github.com/danielgindi/Charts/tree/v3.0.0) (2016-10-19)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/2.3.0...v3.0.0)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/3.0.0...v3.0.0)
+
+## [3.0.0](https://github.com/danielgindi/Charts/tree/3.0.0) (2016-10-19)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/2.3.0...3.0.0)
 
 **Implemented enhancements:**
 
@@ -2139,11 +2488,24 @@
 - Fixes messaging issues with charts needing carthage [\#1525](https://github.com/danielgindi/Charts/pull/1525) ([petester42](https://github.com/petester42))
 - Attempt to make CI more stable [\#1510](https://github.com/danielgindi/Charts/pull/1510) ([petester42](https://github.com/petester42))
 - Fix Cocoapods setup being broken [\#1509](https://github.com/danielgindi/Charts/pull/1509) ([petester42](https://github.com/petester42))
+- bump Charts version to 3.0.0 [\#1505](https://github.com/danielgindi/Charts/pull/1505) ([liuxuan30](https://github.com/liuxuan30))
+- porting \#1452 into master [\#1486](https://github.com/danielgindi/Charts/pull/1486) ([liuxuan30](https://github.com/liuxuan30))
+- Don't override project settings in targets [\#1484](https://github.com/danielgindi/Charts/pull/1484) ([petester42](https://github.com/petester42))
+- change Charts baseSDK to iOS 10 [\#1467](https://github.com/danielgindi/Charts/pull/1467) ([liuxuan30](https://github.com/liuxuan30))
+- migrate more ChartsDemo project setting to swift 3.0 [\#1466](https://github.com/danielgindi/Charts/pull/1466) ([liuxuan30](https://github.com/liuxuan30))
+- Update project structure for simplicity and fixing carthage [\#1422](https://github.com/danielgindi/Charts/pull/1422) ([petester42](https://github.com/petester42))
+- When only one of scaleXEnabled or scaleYEnabled is effective [\#1319](https://github.com/danielgindi/Charts/pull/1319) ([essoecc](https://github.com/essoecc))
+- V3 [\#1318](https://github.com/danielgindi/Charts/pull/1318) ([vishaldeshai](https://github.com/vishaldeshai))
+- fix Realm pod spec typo [\#1271](https://github.com/danielgindi/Charts/pull/1271) ([liuxuan30](https://github.com/liuxuan30))
+- improve comment to warn users how to use setVisibleRange APIs [\#1245](https://github.com/danielgindi/Charts/pull/1245) ([liuxuan30](https://github.com/liuxuan30))
+- for \#1208, seems drawBarShadowEnabled should be false by default [\#1226](https://github.com/danielgindi/Charts/pull/1226) ([liuxuan30](https://github.com/liuxuan30))
 
 ## [2.3.0](https://github.com/danielgindi/Charts/tree/2.3.0) (2016-09-21)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.3.0...2.3.0)
 
 ## [v2.3.0](https://github.com/danielgindi/Charts/tree/v2.3.0) (2016-09-21)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.2.5...v2.3.0)
 
 **Implemented enhancements:**
@@ -2461,44 +2823,12 @@
 
 **Merged pull requests:**
 
-- bump Charts version to 3.0.0 [\#1505](https://github.com/danielgindi/Charts/pull/1505) ([liuxuan30](https://github.com/liuxuan30))
-- porting \#1452 into master [\#1486](https://github.com/danielgindi/Charts/pull/1486) ([liuxuan30](https://github.com/liuxuan30))
-- Don't override project settings in targets [\#1484](https://github.com/danielgindi/Charts/pull/1484) ([petester42](https://github.com/petester42))
-- change Charts baseSDK to iOS 10 [\#1467](https://github.com/danielgindi/Charts/pull/1467) ([liuxuan30](https://github.com/liuxuan30))
-- migrate more ChartsDemo project setting to swift 3.0 [\#1466](https://github.com/danielgindi/Charts/pull/1466) ([liuxuan30](https://github.com/liuxuan30))
-- Fix bar layout bug, pie callback bug [\#1452](https://github.com/danielgindi/Charts/pull/1452) ([aoverholtzer](https://github.com/aoverholtzer))
-- Update project structure for simplicity and fixing carthage [\#1422](https://github.com/danielgindi/Charts/pull/1422) ([petester42](https://github.com/petester42))
-- \[swift 3.0 specific\]fix linear line chart additional line segments wile zooming in [\#1420](https://github.com/danielgindi/Charts/pull/1420) ([liuxuan30](https://github.com/liuxuan30))
-- fix attempt for Realm support [\#1414](https://github.com/danielgindi/Charts/pull/1414) ([liuxuan30](https://github.com/liuxuan30))
-- migrate Chart v3 code in master to swift 2.3 branch [\#1389](https://github.com/danielgindi/Charts/pull/1389) ([liuxuan30](https://github.com/liuxuan30))
-- fix bridgedObjCGetStringArray warning and more copyWithZone\(\_ zone: NSZone?\) -\> AnyObject errors [\#1379](https://github.com/danielgindi/Charts/pull/1379) ([liuxuan30](https://github.com/liuxuan30))
-- migrate `public` to `open` [\#1378](https://github.com/danielgindi/Charts/pull/1378) ([liuxuan30](https://github.com/liuxuan30))
-- Swift 3.0 beta 6 \(acegreen's branch, but with fixes for OS X\) [\#1353](https://github.com/danielgindi/Charts/pull/1353) ([pixelspark](https://github.com/pixelspark))
-- Conforms to Swift 3 - Xcode 8 beta 6 [\#1342](https://github.com/danielgindi/Charts/pull/1342) ([acegreen](https://github.com/acegreen))
-- When only one of scaleXEnabled or scaleYEnabled is effective [\#1319](https://github.com/danielgindi/Charts/pull/1319) ([essoecc](https://github.com/essoecc))
-- V3 [\#1318](https://github.com/danielgindi/Charts/pull/1318) ([vishaldeshai](https://github.com/vishaldeshai))
-- convert RunLoopMode to swift 3.0 syntax [\#1296](https://github.com/danielgindi/Charts/pull/1296) ([liuxuan30](https://github.com/liuxuan30))
-- fix more ChartsDemo complains [\#1295](https://github.com/danielgindi/Charts/pull/1295) ([liuxuan30](https://github.com/liuxuan30))
-- just fix all Xcode beta 4 complains, except for Realm bug [\#1294](https://github.com/danielgindi/Charts/pull/1294) ([liuxuan30](https://github.com/liuxuan30))
-- Swift 3.0 - Xcode 8 Beta 4 [\#1290](https://github.com/danielgindi/Charts/pull/1290) ([acegreen](https://github.com/acegreen))
 - Few more changes needed to build with Swift 2.3 [\#1281](https://github.com/danielgindi/Charts/pull/1281) ([EpicDraws](https://github.com/EpicDraws))
-- fix Realm pod spec typo [\#1271](https://github.com/danielgindi/Charts/pull/1271) ([liuxuan30](https://github.com/liuxuan30))
-- support Realm 1.0.2 [\#1270](https://github.com/danielgindi/Charts/pull/1270) ([liuxuan30](https://github.com/liuxuan30))
-- upgrade Realm to 1.0.2 [\#1268](https://github.com/danielgindi/Charts/pull/1268) ([liuxuan30](https://github.com/liuxuan30))
-- Typo fix,  our of range =\> out of range [\#1264](https://github.com/danielgindi/Charts/pull/1264) ([chris-gunawardena](https://github.com/chris-gunawardena))
-- Fix Swift 3 compilation errors for iOS [\#1258](https://github.com/danielgindi/Charts/pull/1258) ([puthirith](https://github.com/puthirith))
-- remove brew upgrade carthage for travis and update ios-snapshot-test-case to 2.1.2 [\#1249](https://github.com/danielgindi/Charts/pull/1249) ([liuxuan30](https://github.com/liuxuan30))
-- improve comment to warn users how to use setVisibleRange APIs [\#1245](https://github.com/danielgindi/Charts/pull/1245) ([liuxuan30](https://github.com/liuxuan30))
-- for \#1208, seems drawBarShadowEnabled should be false by default [\#1226](https://github.com/danielgindi/Charts/pull/1226) ([liuxuan30](https://github.com/liuxuan30))
-- BUGFIX: fix infinite recursive call of getXIndex\(\_:\) [\#1213](https://github.com/danielgindi/Charts/pull/1213) ([AntiMoron](https://github.com/AntiMoron))
-- Add missing imports for iOS 7 support [\#1205](https://github.com/danielgindi/Charts/pull/1205) ([VincentSit](https://github.com/VincentSit))
-- upgrade carthage, resolve test failure config [\#1203](https://github.com/danielgindi/Charts/pull/1203) ([liuxuan30](https://github.com/liuxuan30))
-- update iso-snapshot-test-case to master to have the fix for now [\#1202](https://github.com/danielgindi/Charts/pull/1202) ([liuxuan30](https://github.com/liuxuan30))
-- Migrate to Swift 3 \(now targeted at the Swift-3.0 branch\) [\#1171](https://github.com/danielgindi/Charts/pull/1171) ([pixelspark](https://github.com/pixelspark))
 - Swift 2.3 [\#1163](https://github.com/danielgindi/Charts/pull/1163) ([liuxuan30](https://github.com/liuxuan30))
 - Ignoring .DS\_Store files [\#1130](https://github.com/danielgindi/Charts/pull/1130) ([einsteinx2](https://github.com/einsteinx2))
 
 ## [v2.2.5](https://github.com/danielgindi/Charts/tree/v2.2.5) (2016-05-30)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.2.4...v2.2.5)
 
 **Implemented enhancements:**
@@ -2674,8 +3004,11 @@
 - replace old github link to latest https://github.com/danielgindi/Charts [\#932](https://github.com/danielgindi/Charts/pull/932) ([liuxuan30](https://github.com/liuxuan30))
 - Some minor nits [\#913](https://github.com/danielgindi/Charts/pull/913) ([ruurd](https://github.com/ruurd))
 - add a switch whether to draw limit line's labels. default is true [\#887](https://github.com/danielgindi/Charts/pull/887) ([liuxuan30](https://github.com/liuxuan30))
+- Add new pie chart renderer with polyline indicate [\#869](https://github.com/danielgindi/Charts/pull/869) ([wjacker](https://github.com/wjacker))
+- Supporting borders on bars, Fixes issue \#822 [\#844](https://github.com/danielgindi/Charts/pull/844) ([AndreasIgelCC](https://github.com/AndreasIgelCC))
 
 ## [v2.2.4](https://github.com/danielgindi/Charts/tree/v2.2.4) (2016-03-31)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.2.3...v2.2.4)
 
 **Fixed bugs:**
@@ -2789,16 +3122,17 @@
 **Merged pull requests:**
 
 - remove duplicated statement [\#894](https://github.com/danielgindi/Charts/pull/894) ([liuxuan30](https://github.com/liuxuan30))
-- Add new pie chart renderer with polyline indicate [\#869](https://github.com/danielgindi/Charts/pull/869) ([wjacker](https://github.com/wjacker))
 - Add a Gitter chat badge to README.md [\#861](https://github.com/danielgindi/Charts/pull/861) ([gitter-badger](https://github.com/gitter-badger))
 - Type bug in PieChartData [\#847](https://github.com/danielgindi/Charts/pull/847) ([leoMehlig](https://github.com/leoMehlig))
-- Supporting borders on bars, Fixes issue \#822 [\#844](https://github.com/danielgindi/Charts/pull/844) ([AndreasIgelCC](https://github.com/AndreasIgelCC))
 - Update Readme [\#828](https://github.com/danielgindi/Charts/pull/828) ([PhilJay](https://github.com/PhilJay))
 - Keep position on rotation [\#824](https://github.com/danielgindi/Charts/pull/824) ([leoMehlig](https://github.com/leoMehlig))
 - Set code signing identity for iOS targets [\#811](https://github.com/danielgindi/Charts/pull/811) ([krbarnes](https://github.com/krbarnes))
 - Add trailing newline for preprocessor statement [\#795](https://github.com/danielgindi/Charts/pull/795) ([boourns](https://github.com/boourns))
+- Feature \#539 Stepped line charts [\#778](https://github.com/danielgindi/Charts/pull/778) ([ezamagni](https://github.com/ezamagni))
+- add support for lineCap setting for line chart [\#658](https://github.com/danielgindi/Charts/pull/658) ([liuxuan30](https://github.com/liuxuan30))
 
 ## [v2.2.3](https://github.com/danielgindi/Charts/tree/v2.2.3) (2016-02-29)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.2.2...v2.2.3)
 
 **Closed issues:**
@@ -2829,7 +3163,6 @@
 
 - Add "Toggle Data" option to demo charts. \(\#771 Support\) [\#781](https://github.com/danielgindi/Charts/pull/781) ([ospr](https://github.com/ospr))
 - Add missing UIKit imports for iOS 7 [\#780](https://github.com/danielgindi/Charts/pull/780) ([asmarques](https://github.com/asmarques))
-- Feature \#539 Stepped line charts [\#778](https://github.com/danielgindi/Charts/pull/778) ([ezamagni](https://github.com/ezamagni))
 - Make ChartViewBase's \_data optional. \(Fixes \#771\) [\#772](https://github.com/danielgindi/Charts/pull/772) ([ospr](https://github.com/ospr))
 - Add Carthage compatibility badge [\#769](https://github.com/danielgindi/Charts/pull/769) ([Bogidon](https://github.com/Bogidon))
 - update cocoapods url [\#755](https://github.com/danielgindi/Charts/pull/755) ([stevenedds](https://github.com/stevenedds))
@@ -2837,10 +3170,11 @@
 - Correct the spelling of CocoaPods in README [\#751](https://github.com/danielgindi/Charts/pull/751) ([ReadmeCritic](https://github.com/ReadmeCritic))
 - LineChartRenderer context bug [\#746](https://github.com/danielgindi/Charts/pull/746) ([leoMehlig](https://github.com/leoMehlig))
 - Fix for cubic line chart fill when charts that don't start at x-index 0 \#711 [\#712](https://github.com/danielgindi/Charts/pull/712) ([gunterhager](https://github.com/gunterhager))
-- add support for lineCap setting for line chart [\#658](https://github.com/danielgindi/Charts/pull/658) ([liuxuan30](https://github.com/liuxuan30))
+- add an option to set line cap of axis grid line [\#660](https://github.com/danielgindi/Charts/pull/660) ([mconintet](https://github.com/mconintet))
 
 ## [v2.2.2](https://github.com/danielgindi/Charts/tree/v2.2.2) (2016-02-09)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/2.2.1...v2.2.2)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v2.2.1...v2.2.2)
 
 **Fixed bugs:**
 
@@ -2857,11 +3191,13 @@
 - LineChartData omits and misaligns values when data isn't continuous [\#728](https://github.com/danielgindi/Charts/issues/728)
 - Apache license and correct attribution in an iOS app? [\#678](https://github.com/danielgindi/Charts/issues/678)
 
-## [2.2.1](https://github.com/danielgindi/Charts/tree/2.2.1) (2016-02-01)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v2.2.1...2.2.1)
-
 ## [v2.2.1](https://github.com/danielgindi/Charts/tree/v2.2.1) (2016-02-01)
-[Full Changelog](https://github.com/danielgindi/Charts/compare/v2.2.0...v2.2.1)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/2.2.1...v2.2.1)
+
+## [2.2.1](https://github.com/danielgindi/Charts/tree/2.2.1) (2016-02-01)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/v2.2.0...2.2.1)
 
 **Fixed bugs:**
 
@@ -2886,6 +3222,7 @@
 - Update podspec for realm and 2.2.0 [\#725](https://github.com/danielgindi/Charts/pull/725) ([petester42](https://github.com/petester42))
 
 ## [v2.2.0](https://github.com/danielgindi/Charts/tree/v2.2.0) (2016-01-26)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.1.6...v2.2.0)
 
 **Fixed bugs:**
@@ -3017,25 +3354,23 @@
 
 **Merged pull requests:**
 
-- Activate require app extension safe API to be able to use library inside an app extension [\#708](https://github.com/danielgindi/Charts/pull/708) ([adonaire-sage](https://github.com/adonaire-sage))
+- Activate require app extension safe API to be able to use library inside an app extension [\#708](https://github.com/danielgindi/Charts/pull/708) ([ghost](https://github.com/ghost))
 - fix code indent problem in ChartYAxisRendererRadarChart, ChartYAxisRenderer, BarChartDataSet, RadarChartView [\#675](https://github.com/danielgindi/Charts/pull/675) ([liuxuan30](https://github.com/liuxuan30))
-- add an option to set line cap of axis grid line [\#660](https://github.com/danielgindi/Charts/pull/660) ([mconintet](https://github.com/mconintet))
 - Fix minor typo in BarLineChartViewBase [\#651](https://github.com/danielgindi/Charts/pull/651) ([patrickreynolds](https://github.com/patrickreynolds))
-- Stop axis labels duplicating. \#315  \[Pending squash and cleanup\] [\#648](https://github.com/danielgindi/Charts/pull/648) ([noais](https://github.com/noais))
 - Adapted ChartLegendRenderer class to upcoming Swift 3 changes and improved code readability [\#643](https://github.com/danielgindi/Charts/pull/643) ([zntfdr](https://github.com/zntfdr))
 - Remove verbose semicolons [\#639](https://github.com/danielgindi/Charts/pull/639) ([AntiMoron](https://github.com/AntiMoron))
 - Adds CI [\#636](https://github.com/danielgindi/Charts/pull/636) ([petester42](https://github.com/petester42))
 - Add missing images for bar chart tests [\#635](https://github.com/danielgindi/Charts/pull/635) ([petester42](https://github.com/petester42))
 - Use nil coalescing in ChartDataSet's entryCount \(Fixes \#631\) [\#632](https://github.com/danielgindi/Charts/pull/632) ([aarondaub](https://github.com/aarondaub))
-- add highlight circle for radar chart [\#630](https://github.com/danielgindi/Charts/pull/630) ([liuxuan30](https://github.com/liuxuan30))
 - Remove useless parentheses causing swift build error [\#614](https://github.com/danielgindi/Charts/pull/614) ([chanil1218](https://github.com/chanil1218))
 - Add change log file. [\#605](https://github.com/danielgindi/Charts/pull/605) ([skywinder](https://github.com/skywinder))
 - add initialize dataSets in setter [\#600](https://github.com/danielgindi/Charts/pull/600) ([liuxuan30](https://github.com/liuxuan30))
 - Bar chart tests [\#580](https://github.com/danielgindi/Charts/pull/580) ([alvesjtiago](https://github.com/alvesjtiago))
-- Make getBarBounds callable from Objective-C code \(Fixes \#570\) [\#571](https://github.com/danielgindi/Charts/pull/571) ([adonaire-sage](https://github.com/adonaire-sage))
+- Make getBarBounds callable from Objective-C code \(Fixes \#570\) [\#571](https://github.com/danielgindi/Charts/pull/571) ([ghost](https://github.com/ghost))
 - round the float value before we cast to Int [\#558](https://github.com/danielgindi/Charts/pull/558) ([liuxuan30](https://github.com/liuxuan30))
 
 ## [v2.1.6](https://github.com/danielgindi/Charts/tree/v2.1.6) (2015-11-02)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.1.5...v2.1.6)
 
 **Implemented enhancements:**
@@ -3087,6 +3422,7 @@
 - Add ability to turn off antialias for grid lines [\#462](https://github.com/danielgindi/Charts/pull/462) ([vvit](https://github.com/vvit))
 
 ## [v2.1.5](https://github.com/danielgindi/Charts/tree/v2.1.5) (2015-10-15)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.1.4a...v2.1.5)
 
 **Fixed bugs:**
@@ -3137,6 +3473,7 @@
 - Make the ChartXAxisRenderer more flexible: now possible to overwrite drawing the line or label of the ChartLimitLine [\#432](https://github.com/danielgindi/Charts/pull/432) ([pajai](https://github.com/pajai))
 
 ## [v2.1.4a](https://github.com/danielgindi/Charts/tree/v2.1.4a) (2015-10-02)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.1.4...v2.1.4a)
 
 **Fixed bugs:**
@@ -3195,6 +3532,7 @@
 - be explicit on how to install 'Charts' when using CocoaPods since [\#376](https://github.com/danielgindi/Charts/pull/376) ([codeHatcher](https://github.com/codeHatcher))
 
 ## [v2.1.4](https://github.com/danielgindi/Charts/tree/v2.1.4) (2015-09-21)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.1.3...v2.1.4)
 
 **Fixed bugs:**
@@ -3281,13 +3619,14 @@
 - Update BarLineChartViewBase.swift [\#359](https://github.com/danielgindi/Charts/pull/359) ([Ewg777](https://github.com/Ewg777))
 - combined chart - seems we should use same chartXMin and chartXMax even there is no bubble data [\#324](https://github.com/danielgindi/Charts/pull/324) ([liuxuan30](https://github.com/liuxuan30))
 - fix pie chart clipping [\#313](https://github.com/danielgindi/Charts/pull/313) ([petester42](https://github.com/petester42))
-- Changed Release signing configuration to "iOS Developer" to improve Carthage compatibility [\#297](https://github.com/danielgindi/Charts/pull/297) ([JaviSoto](https://github.com/JaviSoto))
-- Fixes xcode beta 5 compile errors [\#291](https://github.com/danielgindi/Charts/pull/291) ([petester42](https://github.com/petester42))
 - bump podspec to 2.1.3 [\#290](https://github.com/danielgindi/Charts/pull/290) ([petester42](https://github.com/petester42))
 - Minor refactor for BarLineChartViewBase [\#268](https://github.com/danielgindi/Charts/pull/268) ([liuxuan30](https://github.com/liuxuan30))
 - Enhanced label positioning at limit lines \(enum ChartLimitLabelPosition\) [\#243](https://github.com/danielgindi/Charts/pull/243) ([SvenMuc](https://github.com/SvenMuc))
+- fix radar chart negative value rendering bug if startAtZeroEnabled is false for issue \#166 [\#207](https://github.com/danielgindi/Charts/pull/207) ([liuxuan30](https://github.com/liuxuan30))
+- Performance Enhancements \#29 - candle chart [\#192](https://github.com/danielgindi/Charts/pull/192) ([dorsoft](https://github.com/dorsoft))
 
 ## [v2.1.3](https://github.com/danielgindi/Charts/tree/v2.1.3) (2015-08-05)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.1.2...v2.1.3)
 
 **Closed issues:**
@@ -3323,9 +3662,11 @@
 - try to fix bar chart + Horizontal Bar chart wrong render + highlight position bug for issue \#214 and \#242. [\#248](https://github.com/danielgindi/Charts/pull/248) ([liuxuan30](https://github.com/liuxuan30))
 
 ## [v2.1.2](https://github.com/danielgindi/Charts/tree/v2.1.2) (2015-07-26)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.1.1...v2.1.2)
 
 ## [v2.1.1](https://github.com/danielgindi/Charts/tree/v2.1.1) (2015-07-26)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.1.0...v2.1.1)
 
 **Fixed bugs:**
@@ -3444,10 +3785,6 @@
 
 **Merged pull requests:**
 
-- Fixes to allow the code to compile with Swift 2.0 [\#232](https://github.com/danielgindi/Charts/pull/232) ([jmacmullin](https://github.com/jmacmullin))
-- fix radar chart negative value rendering bug if startAtZeroEnabled is false for issue \#166 [\#207](https://github.com/danielgindi/Charts/pull/207) ([liuxuan30](https://github.com/liuxuan30))
-- Fixes for beta 3 [\#200](https://github.com/danielgindi/Charts/pull/200) ([petester42](https://github.com/petester42))
-- Performance Enhancements \#29 - candle chart [\#192](https://github.com/danielgindi/Charts/pull/192) ([dorsoft](https://github.com/dorsoft))
 - Candle chart - make the shadow same color as an candle color \#122 [\#191](https://github.com/danielgindi/Charts/pull/191) ([dorsoft](https://github.com/dorsoft))
 - ChartData.removeEntryByXIndex removes the wrong entry \#182 [\#185](https://github.com/danielgindi/Charts/pull/185) ([dorsoft](https://github.com/dorsoft))
 - The line charts have started to properly display balloon markers [\#179](https://github.com/danielgindi/Charts/pull/179) ([Maxim-38RUS-Zabelin](https://github.com/Maxim-38RUS-Zabelin))
@@ -3463,6 +3800,7 @@
 - Changing iOS deployment target to 8.0 from 8.1 [\#74](https://github.com/danielgindi/Charts/pull/74) ([michaelmcguire](https://github.com/michaelmcguire))
 
 ## [v2.1.0](https://github.com/danielgindi/Charts/tree/v2.1.0) (2015-05-05)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/v2.0.9...v2.1.0)
 
 **Implemented enhancements:**
@@ -3514,12 +3852,12 @@
 - Added possibility to set the axisLabelModulus manually. [\#56](https://github.com/danielgindi/Charts/pull/56) ([webventil](https://github.com/webventil))
 - Add missing UIKit imports for iOS 7 support [\#45](https://github.com/danielgindi/Charts/pull/45) ([msanders](https://github.com/msanders))
 - Add 'init' to PieChartData to be used from Swift [\#37](https://github.com/danielgindi/Charts/pull/37) ([jmnavarro](https://github.com/jmnavarro))
-- Bubble chart work by @petester42 [\#32](https://github.com/danielgindi/Charts/pull/32) ([danielgindi](https://github.com/danielgindi))
 - Added Bubble Chart Type [\#25](https://github.com/danielgindi/Charts/pull/25) ([petester42](https://github.com/petester42))
 - Shared Charts.framework scheme [\#22](https://github.com/danielgindi/Charts/pull/22) ([zenkimoto](https://github.com/zenkimoto))
 - Add missing UIKit [\#20](https://github.com/danielgindi/Charts/pull/20) ([mkalmes](https://github.com/mkalmes))
 
 ## [v2.0.9](https://github.com/danielgindi/Charts/tree/v2.0.9) (2015-04-08)
+
 [Full Changelog](https://github.com/danielgindi/Charts/compare/0.0.1...v2.0.9)
 
 **Closed issues:**
@@ -3531,6 +3869,9 @@
 - Added a podspec [\#13](https://github.com/danielgindi/Charts/pull/13) ([petester42](https://github.com/petester42))
 
 ## [0.0.1](https://github.com/danielgindi/Charts/tree/0.0.1) (2015-04-07)
+
+[Full Changelog](https://github.com/danielgindi/Charts/compare/72652ef3ef988664c9b543bb9f38617e46cc68d7...0.0.1)
+
 **Closed issues:**
 
 - Need Version to be compatible with Xcode 6.2  [\#12](https://github.com/danielgindi/Charts/issues/12)
@@ -3550,4 +3891,4 @@
 
 
 
-\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
+\* *This Changelog was automatically generated by [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)*
